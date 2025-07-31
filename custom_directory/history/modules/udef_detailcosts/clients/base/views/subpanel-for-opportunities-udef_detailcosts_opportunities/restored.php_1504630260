@@ -1,0 +1,64 @@
+<?php
+// created: 2017-09-05 16:50:56
+$viewdefs['udef_detailcosts']['base']['view']['subpanel-for-opportunities-udef_detailcosts_opportunities'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'date_entered',
+          'label' => 'LBL_DATE_ENTERED',
+          'enabled' => true,
+          'readonly' => true,
+          'default' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'ref_no',
+          'label' => 'LBL_REF_NO',
+          'enabled' => true,
+          'default' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'acc_no',
+          'label' => 'LBL_ACC_NO',
+          'enabled' => true,
+          'default' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'nett',
+          'label' => 'LBL_NETT',
+          'enabled' => true,
+          'default' => true,
+        ),
+        4 => 
+        array (
+          'name' => 'project_name',
+          'label' => 'LBL_PROJECT_NAME',
+          'enabled' => true,
+          'default' => true,
+        ),
+        5 => 
+        array (
+          'name' => 'cost_centre',
+          'label' => 'LBL_COST_CENTRE',
+          'enabled' => true,
+          'default' => true,
+        ),
+      ),
+    ),
+  ),
+  'orderBy' => 
+  array (
+    'field' => 'date_modified',
+    'direction' => 'desc',
+  ),
+  'type' => 'subpanel-list',
+);

@@ -1,0 +1,226 @@
+<?php
+$module_name = 'c_po_detail';
+$_module_name = 'c_po_detail';
+$viewdefs[$module_name] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'list' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'name',
+                'label' => 'LBL_LIST_SALE_NAME',
+                'link' => true,
+                'default' => true,
+                'enabled' => true,
+                'width' => 'xsmall',
+              ),
+              1 => 
+              array (
+                'name' => 'c_po_detail_type',
+                'label' => 'LBL_TYPE',
+                'default' => true,
+                'enabled' => true,
+                'width' => 'xsmall',
+              ),
+              2 => 
+              array (
+                'name' => 'price_c',
+                'label' => 'LBL_PRICE',
+                'enabled' => true,
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'currency_format' => true,
+                'default' => true,
+                'width' => 'xsmall',
+              ),
+              3 => 
+              array (
+                'name' => 'status_c',
+                'label' => 'LBL_STATUS',
+                'enabled' => true,
+                'default' => true,
+                'width' => 'xsmall',
+              ),
+              4 => 
+              array (
+                'name' => 'total_received_value_c',
+                'label' => 'LBL_TOTAL_RECEIVED_VALUE',
+                'enabled' => true,
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'currency_format' => true,
+                'default' => true,
+                'width' => 'xsmall',
+              ),
+              5 => 
+              array (
+                'name' => 'rcv_message_c',
+                'label' => 'LBL_RCV_MESSAGE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              6 => 
+              array (
+                'name' => 'dimensions_received_value_c',
+                'label' => 'LBL_DIMENSIONS_RECEIVED_VALUE',
+                'enabled' => true,
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'currency_format' => true,
+                'default' => true,
+                'width' => 'xsmall',
+              ),
+              7 => 
+              array (
+                'name' => 'date_modified',
+                'enabled' => true,
+                'default' => true,
+                'width' => 'xsmall',
+              ),
+              8 => 
+              array (
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_ASSIGNED_TO_NAME',
+                'default' => true,
+                'enabled' => true,
+                'width' => 'xsmall',
+              ),
+              9 => 
+              array (
+                'name' => 'sync_error_c',
+                'label' => 'LBL_SYNC_ERROR',
+                'enabled' => true,
+                'default' => true,
+              ),
+              10 => 
+              array (
+                'name' => 'po_status_c',
+                'label' => 'LBL_PO_STATUS',
+                'enabled' => true,
+                'default' => false,
+              ),
+              11 => 
+              array (
+                'name' => 'lead_source',
+                'label' => 'LBL_LEAD_SOURCE',
+                'default' => false,
+                'enabled' => true,
+              ),
+              12 => 
+              array (
+                'name' => 'next_step',
+                'label' => 'LBL_NEXT_STEP',
+                'default' => false,
+                'enabled' => true,
+              ),
+              13 => 
+              array (
+                'name' => 'date_closed',
+                'label' => 'LBL_LIST_DATE_CLOSED',
+                'default' => false,
+                'enabled' => true,
+              ),
+              14 => 
+              array (
+                'name' => 'sales_stage',
+                'label' => 'LBL_LIST_SALE_STAGE',
+                'default' => false,
+                'enabled' => true,
+              ),
+              15 => 
+              array (
+                'name' => 'team_name',
+                'label' => 'LBL_TEAM',
+                'default' => false,
+                'enabled' => true,
+              ),
+              16 => 
+              array (
+                'name' => 'probability',
+                'label' => 'LBL_PROBABILITY',
+                'default' => false,
+                'enabled' => true,
+              ),
+              17 => 
+              array (
+                'name' => 'date_entered',
+                'readonly' => true,
+                'default' => false,
+                'enabled' => true,
+              ),
+              18 => 
+              array (
+                'name' => 'created_by_name',
+                'label' => 'LBL_CREATED',
+                'readonly' => true,
+                'default' => false,
+                'enabled' => true,
+              ),
+              19 => 
+              array (
+                'name' => 'opportunities_c_po_detail_1_name',
+                'label' => 'LBL_OPPORTUNITIES_C_PO_DETAIL_1_FROM_OPPORTUNITIES_TITLE',
+                'enabled' => true,
+                'id' => 'OPPORTUNITIES_C_PO_DETAIL_1OPPORTUNITIES_IDA',
+                'link' => true,
+                'sortable' => false,
+                'default' => false,
+              ),
+              20 => 
+              array (
+                'name' => 'description',
+                'label' => 'LBL_DESCRIPTION',
+                'enabled' => true,
+                'sortable' => false,
+                'default' => false,
+              ),
+              21 => 
+              array (
+                'name' => 'supplier_c',
+                'label' => 'LBL_SUPPLIER',
+                'enabled' => true,
+                'readonly' => false,
+                'default' => false,
+              ),
+              22 => 
+              array (
+                'name' => 'modified_by_name',
+                'label' => 'LBL_MODIFIED',
+                'readonly' => true,
+                'default' => false,
+                'enabled' => true,
+              ),
+              23 => 
+              array (
+                'name' => 'tag',
+                'label' => 'LBL_TAGS',
+                'enabled' => true,
+                'default' => false,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

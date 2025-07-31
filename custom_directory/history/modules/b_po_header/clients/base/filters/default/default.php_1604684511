@@ -1,0 +1,66 @@
+<?php
+// created: 2020-11-02 17:58:16
+$viewdefs['b_po_header']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'created_by_name' => 
+    array (
+    ),
+    'amount' => 
+    array (
+    ),
+    'date_closed' => 
+    array (
+    ),
+    'dimensions_database_c' => 
+    array (
+    ),
+    'a_supplier_b_po_header_1_name' => 
+    array (
+    ),
+    'probability' => 
+    array (
+    ),
+    'approved_c' => 
+    array (
+    ),
+    'created_by_id_c' => 
+    array (
+    ),
+    'next_step' => 
+    array (
+    ),
+    'lead_source' => 
+    array (
+    ),
+    'sales_stage' => 
+    array (
+    ),
+    'tag' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'po_number_c' => 
+    array (
+    ),
+    'auto_number' => 
+    array (
+    ),
+  ),
+);

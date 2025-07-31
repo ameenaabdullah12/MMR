@@ -1,0 +1,3 @@
+<?php
+$mod_strings['LBL_CONFIRM_BILLING_SHIPPING_POPUP']='Selected record currently contains the following related values: {{{values}}}. If no shipping values are already selected and you select a billing account, the aforementioned fields will be copied over to the corresponding shipping fields too. Click "Confirm" to copy these values to this record. Click "Cancel" to retain the current values.';
+?>

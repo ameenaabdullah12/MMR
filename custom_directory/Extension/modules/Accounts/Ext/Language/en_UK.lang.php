@@ -1,0 +1,35 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_OPPORTUNITIES_SUBPANEL_TITLE'] = 'Projects';
+$mod_strings['LBL_A_ADDRESS_SUBPANEL_TITLE'] = 'Addresses';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_ACCOUNTS_FROM_ACCOUNTS_TITLE'] = 'Account';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_ACCOUNTS_FROM_GATOR_EMARKETINGHISTORY_TITLE'] = 'Emarketing Histories';
+$mod_strings['LBL_REBATE_STRUCTURE'] = 'Rebate structure';
+$mod_strings['LBL_RECORDVIEW_PANEL4'] = 'Rebate';
+$mod_strings['LBL_CONTACTS_SUBPANEL_TITLE'] = 'Contacts';
+$mod_strings['LBL_REBATE_DISCOUNT'] = 'Don&#039;t USE Rebate/Discount';
+$mod_strings['LBL_REBATE_DISCOUNT_DROPDOWN'] = 'Rebate/Discount?';
+$mod_strings['LBL_BRANDS'] = 'Brands';
+$mod_strings['LBL_COMMERCIAL_LEAD_USER_ID'] = 'Commercial Lead (related User ID)';
+$mod_strings['LBL_COMMERCIAL_LEAD'] = 'Commercial Lead';
+$mod_strings['LBL_CURRENCY'] = 'LBL_CURRENCY';
+$mod_strings['LBL_TARGET'] = 'Target';
+$mod_strings['LBL_LEGACY_LISTS'] = 'Legacy Lists';
+$mod_strings['LBL_MMR_CLASSIFICATION'] = 'Client Life Stage';
+$mod_strings['LBL_MON_BOARDID'] = 'MON BoardID';
+$mod_strings['LBL_MON_ITEMID'] = 'mon itemid';
+$mod_strings['LBL_CURRENCY_ISO'] = 'Currency ISO';
+$mod_strings['LBL_CONVERTED_FROM_LEAD'] = 'Converted from lead?';
+$mod_strings['LBL_LEAD_ORIGIN'] = 'Lead Origin';
+$mod_strings['LBL_FINANCE_EMAIL'] = 'Finance Email';
+$mod_strings['LBL_FINANCE_PHONE'] = 'Finance Phone';
+$mod_strings['LBL_SYNC_CHANGE_DATE'] = 'Sync Change Date';
+$mod_strings['LBL_MMR_GROUP_LEAD'] = 'MMR Brand';
+$mod_strings['LBL_NEXT_STEPS_HISTORY'] = 'Next Steps History';
+$mod_strings['LBL_RECORDVIEW_PANEL5'] = 'New Panel 5';
+$mod_strings['LBL_IMPORT_TAG'] = 'Import Tag';
+$mod_strings['LBL_CONTRACT_START_DATE'] = 'Contract Start Date:';
+$mod_strings['LBL_CONTRACT_END_DATE'] = 'Contract End Date';
+$mod_strings['LBL_MONDAY_CODE'] = 'Monday Code';
+$mod_strings['LBL_NOTES'] = 'Notes';
+$mod_strings['LBL_CLIENT_NOTES'] = 'Client Specific Notes:';

@@ -1,0 +1,27 @@
+<div class="modal hide span12 ui-draggable custom-fields-modal">
+    <div class="modal-header ui-sortable-handle">
+        {{#if this.model.attributes.name}}
+            <h3>Additional Details for "{{this.model.attributes.name}}"</h3>
+        {{else}}
+            <h3>Additional Details</h3>
+        {{/if}}
+    </div>
+    <br>
+    <div class="modal-body">
+        <form class="form-horizontal" enctype="multipart/form-data" method="POST">
+            <fieldset>
+                {{#each meta.panels}} {{#each fields}}
+                <div class="row-fluid control-group record-cell">
+                    <label class="span3 record-label tright">{{str this.label ../../this.model.module}}:</label>
+                    <span class="normal index">
+                        <span class="edit span9">{{field ../../this model=../../context.attributes.createModel template="edit"}}</span>
+                    </span>
+                </div>
+                {{/each}} {{/each}}
+            </fieldset>
+        </form>
+    </div>
+    <div class="modal-footer">
+        {{#each meta.buttons}} {{field ../this model=../createModel}} {{/each}}
+    </div>
+</div>

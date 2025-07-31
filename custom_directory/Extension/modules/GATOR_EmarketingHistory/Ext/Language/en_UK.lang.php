@@ -1,0 +1,7 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_ACCOUNTS_FROM_ACCOUNTS_TITLE'] = 'Account';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_ACCOUNTS_FROM_GATOR_EMARKETINGHISTORY_TITLE_ID'] = 'Account ID';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_ACCOUNTS_FROM_GATOR_EMARKETINGHISTORY_TITLE'] = 'Account';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_RECORD_DASHBOARD'] = 'Emarketing Histories Record Dashboard';
+$mod_strings['LBL_GATOR_EMARKETINGHISTORY_FOCUS_DRAWER_DASHBOARD'] = 'Emarketing Histories Focus Drawer';

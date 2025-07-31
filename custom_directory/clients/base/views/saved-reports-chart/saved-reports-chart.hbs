@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="custom/clients/base/views/saved-reports-chart/css/RT_runtimeFilters.css">
+{{#with this.dashletConfig.chart}}
+    {{field ../this model=../this.reportData template=detail}}
+{{/with}}
+
+<div class="runtime-filters-titlebar clearfix">
+    <div class="runtime-filters-heading pull-left"><span>{{str 'LBL_RUNTIME_FILTERS' 'Reports'}}</span></div>
+    <div class="runtime-filters-toggle pull-right">
+        <a id="showHideRuntimeFilters" class="btn btn-invisible" rel="tooltip" data-original-title="Toggle Filters">
+            <i id="toggleButton" class="fa fa-plus"></i>
+        </a>
+    </div>
+</div>
+<div class="runtime-filters-section"></div>

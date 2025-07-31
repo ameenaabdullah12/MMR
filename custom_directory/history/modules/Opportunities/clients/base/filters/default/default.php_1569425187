@@ -1,0 +1,143 @@
+<?php
+// created: 2019-07-29 11:55:17
+$viewdefs['Opportunities']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'auto_number' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'expert_sensory_checkbox_c' => 
+    array (
+    ),
+    'account_name' => 
+    array (
+      'dbFields' => 
+      array (
+      ),
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'csd_team_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'csd_team_c',
+      'vname' => 'LBL_CSD_TEAM',
+    ),
+    'sales_stage' => 
+    array (
+    ),
+    'fieldwork_location_c' => 
+    array (
+      'type' => 'multienum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'fieldwork_location_c',
+      'vname' => 'LBL_FIELDWORK_LOCATION',
+    ),
+    'defined_methods_c' => 
+    array (
+      'type' => 'multienum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'defined_methods_c',
+      'vname' => 'LBL_DEFINED_METHODS',
+    ),
+    'uk_team_location_c' => 
+    array (
+    ),
+    'sensoryqualyesno_c' => 
+    array (
+    ),
+    'expressyesno_c' => 
+    array (
+    ),
+    'qual_req_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'qual_req_c',
+      'vname' => 'LBL_QUAL_REQ',
+    ),
+    'product_area_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'product_area_c',
+      'vname' => 'LBL_PRODUCT_AREA',
+    ),
+    'default_dim_db_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'default_dim_db_c',
+      'vname' => 'LBL_DEFAULT_DIM_DB',
+    ),
+    'description' => 
+    array (
+    ),
+    'case_study_c' => 
+    array (
+      'type' => 'bool',
+      'default' => true,
+      'width' => '10%',
+      'name' => 'case_study_c',
+      'vname' => 'LBL_CASE_STUDY',
+    ),
+    'keywords_c' => 
+    array (
+      'type' => 'varchar',
+      'default' => true,
+      'width' => '10%',
+      'name' => 'keywords_c',
+      'vname' => 'LBL_KEYWORDS',
+    ),
+    'commissioned_date_c' => 
+    array (
+    ),
+    'country_full_list_c' => 
+    array (
+      'type' => 'text',
+      'default' => true,
+      'studio' => 'visible',
+      'sortable' => false,
+      'width' => '10%',
+      'name' => 'country_full_list_c',
+      'vname' => 'LBL_COUNTRY_FULL_LIST',
+    ),
+    'team_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'po_number_c' => 
+    array (
+    ),
+  ),
+);

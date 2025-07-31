@@ -1,0 +1,441 @@
+<?php
+$viewdefs['Accounts'] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'record' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 
+          array (
+            'type' => 'button',
+            'name' => 'cancel_button',
+            'label' => 'LBL_CANCEL_BUTTON_LABEL',
+            'css_class' => 'btn-invisible btn-link',
+            'showOn' => 'edit',
+            'events' => 
+            array (
+              'click' => 'button:cancel_button:click',
+            ),
+          ),
+          1 => 
+          array (
+            'type' => 'rowaction',
+            'event' => 'button:save_button:click',
+            'name' => 'save_button',
+            'label' => 'LBL_SAVE_BUTTON_LABEL',
+            'css_class' => 'btn btn-primary',
+            'showOn' => 'edit',
+            'acl_action' => 'edit',
+          ),
+          2 => 
+          array (
+            'type' => 'actiondropdown',
+            'name' => 'main_dropdown',
+            'primary' => true,
+            'showOn' => 'view',
+            'buttons' => 
+            array (
+              0 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:edit_button:click',
+                'name' => 'edit_button',
+                'label' => 'LBL_EDIT_BUTTON_LABEL',
+                'acl_action' => 'edit',
+              ),
+              1 => 
+              array (
+                'type' => 'shareaction',
+                'name' => 'share',
+                'label' => 'LBL_RECORD_SHARE_BUTTON',
+                'acl_action' => 'view',
+              ),
+              2 => 
+              array (
+                'type' => 'pdfaction',
+                'name' => 'download-pdf',
+                'label' => 'LBL_PDF_VIEW',
+                'action' => 'download',
+                'acl_action' => 'view',
+              ),
+              3 => 
+              array (
+                'type' => 'pdfaction',
+                'name' => 'email-pdf',
+                'label' => 'LBL_PDF_EMAIL',
+                'action' => 'email',
+                'acl_action' => 'view',
+              ),
+              4 => 
+              array (
+                'type' => 'divider',
+              ),
+              5 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:find_duplicates_button:click',
+                'name' => 'find_duplicates_button',
+                'label' => 'LBL_DUP_MERGE',
+                'acl_action' => 'edit',
+              ),
+              6 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:duplicate_button:click',
+                'name' => 'duplicate_button',
+                'label' => 'LBL_DUPLICATE_BUTTON_LABEL',
+                'acl_module' => 'Accounts',
+                'acl_action' => 'create',
+              ),
+              7 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:historical_summary_button:click',
+                'name' => 'historical_summary_button',
+                'label' => 'LBL_HISTORICAL_SUMMARY',
+                'acl_action' => 'view',
+              ),
+              8 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:audit_button:click',
+                'name' => 'audit_button',
+                'label' => 'LNK_VIEW_CHANGE_LOG',
+                'acl_action' => 'view',
+              ),
+              9 => 
+              array (
+                'type' => 'divider',
+              ),
+              10 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:delete_button:click',
+                'name' => 'delete_button',
+                'label' => 'LBL_DELETE_BUTTON_LABEL',
+                'acl_action' => 'delete',
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'sidebar_toggle',
+            'type' => 'sidebartoggle',
+          ),
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'name' => 'panel_header',
+            'label' => 'LBL_PANEL_HEADER',
+            'header' => true,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'picture',
+                'type' => 'avatar',
+                'size' => 'large',
+                'dismiss_label' => true,
+                'readonly' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'name',
+                'events' => 
+                array (
+                  'keyup' => 'update:account',
+                ),
+              ),
+              2 => 
+              array (
+                'name' => 'favorite',
+                'label' => 'LBL_FAVORITE',
+                'type' => 'favorite',
+                'dismiss_label' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'follow',
+                'label' => 'LBL_FOLLOW',
+                'type' => 'follow',
+                'readonly' => true,
+                'dismiss_label' => true,
+              ),
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'panel_body',
+            'label' => 'LBL_RECORD_BODY',
+            'columns' => 2,
+            'labels' => true,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => true,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 'phone_office',
+              1 => 'website',
+              2 => 
+              array (
+                'name' => 'phone_fax',
+              ),
+              3 => 
+              array (
+                'name' => 'twitter',
+              ),
+              4 => 
+              array (
+                'name' => 'tag',
+                'span' => 12,
+              ),
+              5 => 
+              array (
+                'name' => 'email',
+                'span' => 12,
+              ),
+              6 => 
+              array (
+                'name' => 'description',
+                'span' => 12,
+              ),
+              7 => 
+              array (
+                'name' => 'mmr_classification_c',
+                'label' => 'LBL_MMR_CLASSIFICATION',
+                'span' => 12,
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_RECORDVIEW_PANEL4',
+            'label' => 'LBL_RECORDVIEW_PANEL4',
+            'columns' => '2',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'rebate_structure_c',
+                'studio' => 'visible',
+                'label' => 'LBL_REBATE_STRUCTURE',
+                'span' => 12,
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'lbl_detailview_panel3',
+            'label' => 'LBL_DETAILVIEW_PANEL3',
+            'columns' => 2,
+            'labels' => true,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'total_ytd_gp_c',
+                'label' => 'LBL_TOTAL_YTD_GP',
+                'span' => 12,
+              ),
+              1 => 
+              array (
+                'name' => 'total_ytd_wip_c',
+                'label' => 'LBL_TOTAL_YTD_WIP',
+              ),
+              2 => 
+              array (
+                'name' => 'total_ty_bud_c',
+                'label' => 'LBL_TOTAL_TY_BUD',
+              ),
+              3 => 
+              array (
+                'name' => 'total_cf_wip_c',
+                'label' => 'LBL_TOTAL_CF_WIP',
+              ),
+              4 => 
+              array (
+                'name' => 'total_ytd_bud_c',
+                'label' => 'LBL_TOTAL_YTD_BUD',
+              ),
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'lbl_panel_advanced',
+            'label' => 'LBL_PANEL_ADVANCED',
+            'columns' => 2,
+            'labels' => true,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 'account_type',
+              1 => 
+              array (
+                'name' => 'product_area_c',
+                'label' => 'LBL_PRODUCT_AREA',
+              ),
+              2 => 'annual_revenue',
+              3 => 
+              array (
+                'name' => 'review_frequency_c',
+                'label' => 'LBL_REVIEW_FREQUENCY',
+              ),
+              4 => 
+              array (
+                'name' => 'partner_status_c',
+                'label' => 'LBL_PARTNER_STATUS',
+              ),
+              5 => 'rating',
+              6 => 
+              array (
+                'name' => 'csd_team_c',
+                'label' => 'LBL_CSD_TEAM',
+                'span' => 12,
+              ),
+            ),
+          ),
+          5 => 
+          array (
+            'name' => 'lbl_panel_assignment',
+            'label' => 'LBL_PANEL_ASSIGNMENT',
+            'columns' => 2,
+            'labels' => true,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 'assigned_user_name',
+              1 => 'team_name',
+            ),
+          ),
+          6 => 
+          array (
+            'name' => 'lbl_editview_panel1',
+            'label' => 'LBL_EDITVIEW_PANEL1',
+            'columns' => 2,
+            'labels' => true,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => true,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'a_customer_code',
+                'comment' => 'Dimensions Account Code',
+                'label' => 'LBL_A_CUSTOMER_CODE',
+              ),
+              1 => 
+              array (
+                'name' => 'overcode_c',
+                'label' => 'LBL_OVERCODE',
+              ),
+              2 => 
+              array (
+                'name' => 'a_onstop',
+                'comment' => 'Dimensions on stop field',
+                'label' => 'LBL_A_ONSTOP',
+              ),
+              3 => 
+              array (
+                'name' => 'a_turnoverytd',
+                'comment' => 'Dimensions turn over year to date',
+                'label' => 'LBL_A_TURNOVERYTD',
+              ),
+              4 => 
+              array (
+                'name' => 'a_balance',
+                'comment' => 'Dimensions balance',
+                'label' => 'LBL_A_BALANCE',
+              ),
+              5 => 
+              array (
+                'name' => 'a_lastinvoicedate',
+                'comment' => 'Dimensions last invoice date',
+                'label' => 'LBL_A_LASTINVOICEDATE',
+              ),
+              6 => 
+              array (
+                'name' => 'a_aged0to30',
+                'comment' => 'Dimensions Aged0to30',
+                'label' => 'LBL_A_AGED0TO30',
+              ),
+              7 => 
+              array (
+                'name' => 'a_aged31to60',
+                'comment' => 'Dimensions Aged31to60',
+                'label' => 'LBL_A_AGED31TO60',
+              ),
+              8 => 
+              array (
+                'name' => 'a_aged61to90',
+                'comment' => 'Dimensions Aged61to90',
+                'label' => 'LBL_A_AGED61TO90',
+              ),
+              9 => 
+              array (
+                'name' => 'a_aged91plus',
+                'comment' => 'Dimensions Aged91Plus',
+                'label' => 'LBL_A_AGED91PLUS',
+              ),
+              10 => 
+              array (
+                'name' => 'a_creditlimit',
+                'comment' => 'Dimensions credit limit',
+                'label' => 'LBL_A_CREDITLIMIT',
+              ),
+              11 => 
+              array (
+                'name' => 'a_inactive_c',
+                'label' => 'LBL_A_INACTIVE',
+              ),
+              12 => 
+              array (
+                'name' => 'a_notes',
+                'comment' => 'Dimensions Account Notes',
+                'label' => 'LBL_A_NOTES',
+              ),
+              13 => 
+              array (
+                'name' => 'suppiler_type_c',
+                'label' => 'LBL_SUPPILER_TYPE',
+              ),
+              14 => 
+              array (
+                'name' => 'supplier_fieldwork_c',
+                'label' => 'LBL_SUPPLIER_FIELDWORK',
+              ),
+              15 => 'campaign_name',
+            ),
+          ),
+        ),
+        'templateMeta' => 
+        array (
+          'maxColumns' => '2',
+          'useTabs' => true,
+        ),
+      ),
+    ),
+  ),
+);

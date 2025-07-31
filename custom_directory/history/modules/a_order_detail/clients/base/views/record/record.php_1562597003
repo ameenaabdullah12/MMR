@@ -1,0 +1,275 @@
+<?php
+$module_name = 'a_order_detail';
+$viewdefs[$module_name] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'record' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'name' => 'panel_header',
+            'label' => 'LBL_RECORD_HEADER',
+            'header' => true,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'picture',
+                'type' => 'avatar',
+                'width' => 42,
+                'height' => 42,
+                'dismiss_label' => true,
+                'readonly' => true,
+              ),
+              1 => 'name',
+              2 => 
+              array (
+                'name' => 'favorite',
+                'label' => 'LBL_FAVORITE',
+                'type' => 'favorite',
+                'readonly' => true,
+                'dismiss_label' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'follow',
+                'label' => 'LBL_FOLLOW',
+                'type' => 'follow',
+                'readonly' => true,
+                'dismiss_label' => true,
+              ),
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'panel_body',
+            'label' => 'LBL_RECORD_BODY',
+            'columns' => 2,
+            'labelsOnTop' => true,
+            'placeholders' => true,
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'a_order_detail_a_order_header_name',
+              ),
+              1 => 
+              array (
+                'name' => 'a_order_detail_products_name',
+              ),
+              2 => 
+              array (
+                'name' => 'currency_id',
+                'studio' => 'visible',
+                'label' => 'LBL_CURRENCY_ID',
+              ),
+              3 => 
+              array (
+                'name' => 'required_by_date',
+                'label' => 'LBL_REQUIRED_BY_DATE',
+              ),
+              4 => 
+              array (
+                'name' => 'cost_price',
+                'label' => 'LBL_COST_PRICE',
+              ),
+              5 => 
+              array (
+                'name' => 'qty_delivered',
+                'label' => 'LBL_QTY_DELIVERED',
+              ),
+              6 => 
+              array (
+                'name' => 'gross',
+                'label' => 'LBL_GROSS',
+              ),
+              7 => 
+              array (
+                'name' => 'gross_currency',
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'label' => 'LBL_GROSS_CURRENCY',
+              ),
+              8 => 
+              array (
+                'name' => 'unit_cost',
+                'label' => 'LBL_UNIT_COST',
+              ),
+              9 => 
+              array (
+                'name' => 'unit_cost_currency',
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'label' => 'LBL_UNIT_COST_CURRENCY',
+              ),
+              10 => 
+              array (
+                'name' => 'nett',
+                'label' => 'LBL_NETT',
+              ),
+              11 => 
+              array (
+                'name' => 'net_currency',
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'label' => 'LBL_NET_CURRENCY',
+              ),
+              12 => 
+              array (
+                'name' => 'line_discount',
+                'label' => 'LBL_LINE_DISCOUNT',
+              ),
+              13 => 
+              array (
+                'name' => 'line_discount_currency',
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'label' => 'LBL_LINE_DISCOUNT_CURRENCY',
+              ),
+              14 => 
+              array (
+                'name' => 'vat',
+                'label' => 'LBL_VAT',
+              ),
+              15 => 
+              array (
+                'name' => 'vat_currency',
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'label' => 'LBL_VAT_CURRENCY',
+              ),
+              16 => 
+              array (
+                'name' => 'vat_code',
+                'label' => 'LBL_VAT_CODE',
+              ),
+              17 => 
+              array (
+                'name' => 'user_field_1',
+                'label' => 'LBL_USER_FIELD_1',
+              ),
+              18 => 
+              array (
+                'name' => 'qty_unit',
+                'label' => 'LBL_QTY_UNIT',
+              ),
+              19 => 
+              array (
+                'name' => 'user_field_2',
+                'label' => 'LBL_USER_FIELD_2',
+              ),
+              20 => 
+              array (
+                'name' => 'line_type',
+                'label' => 'LBL_LINE_TYPE',
+              ),
+              21 => 
+              array (
+                'name' => 'user_field_3',
+                'label' => 'LBL_USER_FIELD_3',
+              ),
+              22 => 
+              array (
+                'name' => 'qty_ordered',
+                'label' => 'LBL_QTY_ORDERED',
+              ),
+              23 => 
+              array (
+                'name' => 'qty_invoiced',
+                'label' => 'LBL_QTY_INVOICED',
+              ),
+              24 => 
+              array (
+                'name' => 'qty_printed',
+                'label' => 'LBL_QTY_PRINTED',
+              ),
+              25 => 
+              array (
+                'name' => 'order_number',
+                'label' => 'LBL_ORDER_NUMBER',
+              ),
+              26 => 
+              array (
+                'name' => 'qty_reserved',
+                'label' => 'LBL_QTY_RESERVED',
+              ),
+              27 => 
+              array (
+                'name' => 'stock_code',
+                'label' => 'LBL_STOCK_CODE',
+              ),
+              28 => 
+              array (
+                'name' => 'works_order_number',
+                'label' => 'LBL_WORKS_ORDER_NUMBER',
+              ),
+              29 => 
+              array (
+                'name' => 'works_order_status',
+                'label' => 'LBL_WORKS_ORDER_STATUS',
+              ),
+              30 => 
+              array (
+                'name' => 'project_code',
+                'label' => 'LBL_PROJECT_CODE',
+              ),
+              31 => 
+              array (
+                'name' => 'project_cost_centre_code',
+                'label' => 'LBL_PROJECT_COST_CENTRE_CODE',
+              ),
+              32 => 
+              array (
+                'name' => 'price_code',
+                'label' => 'LBL_PRICE_CODE',
+              ),
+              33 => 
+              array (
+                'name' => 'shipping_location',
+                'label' => 'LBL_SHIPPING_LOCATION',
+              ),
+              34 => 
+              array (
+                'name' => 'description',
+                'comment' => 'Full text of the note',
+                'label' => 'LBL_DESCRIPTION',
+                'span' => 6,
+              ),
+              35 => 
+              array (
+                'name' => 'opportunities_a_order_detail_1_name',
+                'span' => 6,
+              ),
+            ),
+          ),
+        ),
+        'templateMeta' => 
+        array (
+          'useTabs' => false,
+        ),
+      ),
+    ),
+  ),
+);

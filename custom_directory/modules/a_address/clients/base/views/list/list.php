@@ -1,0 +1,130 @@
+<?php
+$module_name = 'a_address';
+$viewdefs[$module_name] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'list' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_1',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'default_dim_db_c',
+                'label' => 'LBL_DEFAULT_DIM_DB',
+                'enabled' => true,
+                'default' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'customercode',
+                'label' => 'LBL_CUSTOMERCODE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              2 => 
+              array (
+                'name' => 'name',
+                'label' => 'LBL_NAME',
+                'default' => true,
+                'enabled' => true,
+                'link' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'street',
+                'label' => 'LBL_STREET',
+                'enabled' => true,
+                'default' => true,
+              ),
+              4 => 
+              array (
+                'name' => 'city',
+                'label' => 'LBL_CITY',
+                'enabled' => true,
+                'default' => true,
+              ),
+              5 => 
+              array (
+                'name' => 'state',
+                'label' => 'LBL_STATE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              6 => 
+              array (
+                'name' => 'postalcode',
+                'label' => 'LBL_POSTALCODE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              7 => 
+              array (
+                'name' => 'country',
+                'label' => 'LBL_COUNTRY',
+                'enabled' => true,
+                'default' => true,
+              ),
+              8 => 
+              array (
+                'name' => 'cu_terms_c',
+                'label' => 'LBL_CU_TERMS',
+                'enabled' => true,
+                'default' => true,
+              ),
+              9 => 
+              array (
+                'name' => 'account_name',
+                'label' => 'LBL_ACCOUNT_NAME',
+                'enabled' => true,
+                'id' => 'ACCOUNT_ID',
+                'link' => true,
+                'sortable' => false,
+                'default' => true,
+              ),
+              10 => 
+              array (
+                'name' => 'team_name',
+                'label' => 'LBL_TEAM',
+                'default' => false,
+                'enabled' => true,
+              ),
+              11 => 
+              array (
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_ASSIGNED_TO_NAME',
+                'default' => false,
+                'enabled' => true,
+                'link' => true,
+              ),
+              12 => 
+              array (
+                'name' => 'date_entered',
+                'enabled' => true,
+                'default' => false,
+              ),
+              13 => 
+              array (
+                'name' => 'date_modified',
+                'enabled' => true,
+                'default' => false,
+              ),
+            ),
+          ),
+        ),
+        'orderBy' => 
+        array (
+          'field' => 'date_modified',
+          'direction' => 'desc',
+        ),
+      ),
+    ),
+  ),
+);

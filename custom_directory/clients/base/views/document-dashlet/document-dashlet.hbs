@@ -1,0 +1,59 @@
+<div class="tab-pane active">
+  <div style="display: flex;justify-content: flex-start;">
+    <div class="col-xs-10">
+      <input type="text" class="form-control" name="document_search_title" id="document_search_title" placeholder="Search document title">
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-danger" id="document_search_button">Search</button>
+    </div>
+  </div>
+	<div class="unstyled listed" data-action="pagination-body" style="white-space: nowrap;">
+		<div class="control-group dashlet-options" style="display: flex;justify-content: space-between;">			
+			<select id="ddDocTypes" class="select2" style="margin-bottom:0;min-width:125px;width: 50%">
+                <option value="#">Loading...</option>
+            </select>
+            <div class="pull-right">
+                <button id="btnAdd" class="btn">Add Document</button>
+                <button id="btnSearch" class="btn" style="display:none;">Search</button>
+            </div>
+		</div>
+        <div id="divDocs" class="list-view table-responsive">
+            <table id="dtDocuments" class="table table-striped dataTable" >
+                <thead>
+                    <tr>
+                        <th id="DocTitle" class="sorting orderByDocTitle" data-sortdir="0">
+                          <span data-fieldname="DocTitle">Document Title</span>
+                        </th>
+                        <th id="DocDatePutin" class="sorting sorting_desc orderByDocDatePutin" data-sortdir="-1">
+                          <span data-fieldname="DocDatePutin">Date Added</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sorting" colspan="3" align="center" style="width:100%;"><span>Loading...</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+		<div class="block-footer">
+			<i id="pages" class="record-label">
+                Page <i id="current-page-no">1</i> of <i id="total-page-qty">1</i>
+            </i>
+			<div class="btn-group btn-group-previous-next">
+				<button id="prev" class="btn btn-invisible disabled" disabled data-action="scroll" data-action-type="prev" rel="tooltip" data-placement="bottom" title="Previous">
+					<i class="fa fa-chevron-left"></i>
+				</button>				
+				<button id="next" class="btn btn-invisible disabled" disabled data-action="scroll" data-action-type="next" rel="tooltip" data-placement="bottom" title="Next">
+					<i class="fa fa-chevron-right"></i>
+				</button>	
+			</div>
+			<i id="record-count">0 Records</i>
+		</div>
+		<div class="block-footer" id="loading" hidden>
+			<div class="loading">
+                Loading<i class="l1">.</i><i class="l2">.</i><i class="l3">.</i>
+            </div>
+		</div>
+	</div>
+</div>

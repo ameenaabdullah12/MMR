@@ -1,0 +1,33 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_CURRENCY_0'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_1'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_2'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_3'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_4'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_5'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CT_HC_SALES_VALUE_C'] = '(CT) Sales Value (Region)';
+$mod_strings['LBL_CT_HC_GROSSPROFIT'] = '(CT) Gross Profit (Region)';
+$mod_strings['LBL_CT_SALES_VALUE_GBP'] = '(CT) Sales Value (GBP)';
+$mod_strings['LBL_CT_GROSSPROFIT_GBP'] = '(CT) Gross Profit (GBP)';
+$mod_strings['LBL_CT_GROSSPROFIT'] = '(CT) Gross Profit (Office)';
+$mod_strings['LBL_CT_ACTUAL_SALES'] = '(CT) Sales Value (Office)';
+$mod_strings['LBL_CT_PROFIT_MARGIN'] = '(CT) Profit Margin %';
+$mod_strings['LBL_RECORDVIEW_PANEL10'] = 'Product Hub';
+$mod_strings['LBL_RECORDVIEW_PANEL9'] = 'Costing Tool Info';
+$mod_strings['LBL_MONDAY_SYNC_CHECK'] = 'monday sync check';
+$mod_strings['LBL_CH_STATUS'] = 'CH STATUS';
+$mod_strings['LBL_PH_SYNC'] = '(PH) Sync';
+$mod_strings['LBL_SEND_CSQ'] = 'Send CSQ';
+$mod_strings['LBL_TOTAL_WIP_MONDAY'] = 'Total WIP (Monday)';
+$mod_strings['LBL_PROJECT_WIP'] = 'Project WIP%';
+$mod_strings['LBL_OPPORTUNITIES_OPPORTUNITIES_1_FROM_OPPORTUNITIES_L_TITLE'] = 'Parent P-Number';
+$mod_strings['LBL_ISDEBRIEFED'] = 'IsDebriefed';
+$mod_strings['LBL_SUFFIX_COUNT'] = 'Suffix Count';
+$mod_strings['LBL_SUFFIX_DEBRIEFED'] = 'Suffix Debriefed';
+$mod_strings['LBL_SUFFIX_OUTSTANDING'] = 'Suffix Outstanding';
+$mod_strings['LBL_CSD_TEAM'] = 'CSD Team / Pillar';
+$mod_strings['LBL_SECOND_TEAM'] = 'CSD Team 2 / Source of Brief';
+$mod_strings['LBL_MAKE_CASE_STUDY'] = 'make_case_study';
+$mod_strings['LBL_PROJECT_WIP_100_DATE'] = 'Project Wip 100 Date';
+$mod_strings['LBL_PROJECT_WIP_DIMENSIONS'] = 'Project WIP Dimensions';

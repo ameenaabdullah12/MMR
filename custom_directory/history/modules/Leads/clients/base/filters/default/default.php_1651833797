@@ -1,0 +1,100 @@
+<?php
+// created: 2022-05-06 10:42:57
+$viewdefs['Leads']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'open_only' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'status',
+      ),
+      'type' => 'bool',
+      'vname' => 'LBL_OPEN_ITEMS',
+    ),
+    'first_name' => 
+    array (
+    ),
+    'phone' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'phone_mobile',
+        1 => 'phone_work',
+        2 => 'phone_other',
+        3 => 'phone_fax',
+        4 => 'phone_home',
+      ),
+      'type' => 'phone',
+      'vname' => 'LBL_ANY_PHONE',
+    ),
+    'last_name' => 
+    array (
+    ),
+    'address_street' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'primary_address_street',
+        1 => 'alt_address_street',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_ANY_ADDRESS',
+    ),
+    'address_city' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'primary_address_city',
+        1 => 'alt_address_city',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_CITY',
+    ),
+    'mmr_group_lead_c' => 
+    array (
+    ),
+    'campaign_name' => 
+    array (
+    ),
+    'primary_address_country' => 
+    array (
+    ),
+    'address_state' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'primary_address_state',
+        1 => 'alt_address_state',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_STATE',
+    ),
+    'status' => 
+    array (
+    ),
+    'sourced_from_c' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'lead_source' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+  ),
+);

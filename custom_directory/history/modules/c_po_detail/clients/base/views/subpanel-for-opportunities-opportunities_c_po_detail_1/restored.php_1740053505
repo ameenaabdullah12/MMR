@@ -1,0 +1,106 @@
+<?php
+// created: 2025-02-20 12:11:40
+$viewdefs['c_po_detail']['base']['view']['subpanel-for-opportunities-opportunities_c_po_detail_1'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'name',
+          'label' => 'LBL_LIST_SALE_NAME',
+          'enabled' => true,
+          'default' => true,
+          'link' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'description',
+          'label' => 'LBL_DESCRIPTION',
+          'enabled' => true,
+          'sortable' => false,
+          'default' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'supplier_c',
+          'label' => 'LBL_SUPPLIER',
+          'enabled' => true,
+          'readonly' => false,
+          'default' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'price_c',
+          'label' => 'LBL_PRICE',
+          'enabled' => true,
+          'related_fields' => 
+          array (
+            0 => 'currency_id',
+            1 => 'base_rate',
+          ),
+          'readonly' => false,
+          'currency_format' => true,
+          'default' => true,
+        ),
+        4 => 
+        array (
+          'name' => 'cost_centre_c',
+          'label' => 'LBL_COST_CENTRE',
+          'enabled' => true,
+          'readonly' => false,
+          'default' => true,
+        ),
+        5 => 
+        array (
+          'name' => 'total_received_value_c',
+          'label' => 'LBL_TOTAL_RECEIVED_VALUE',
+          'enabled' => true,
+          'related_fields' => 
+          array (
+            0 => 'currency_id',
+            1 => 'base_rate',
+          ),
+          'readonly' => false,
+          'currency_format' => true,
+          'default' => true,
+        ),
+        6 => 
+        array (
+          'name' => 'status_c',
+          'label' => 'LBL_STATUS',
+          'enabled' => true,
+          'readonly' => false,
+          'default' => true,
+        ),
+        7 => 
+        array (
+          'name' => 'dimensions_received_value_c',
+          'label' => 'LBL_DIMENSIONS_RECEIVED_VALUE',
+          'enabled' => true,
+          'related_fields' => 
+          array (
+            0 => 'currency_id',
+            1 => 'base_rate',
+          ),
+          'readonly' => false,
+          'currency_format' => true,
+          'default' => true,
+        ),
+        8 => 
+        array (
+          'name' => 'rcv_message_c',
+          'label' => 'LBL_RCV_MESSAGE',
+          'enabled' => true,
+          'readonly' => false,
+          'default' => true,
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

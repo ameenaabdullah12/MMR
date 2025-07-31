@@ -1,0 +1,37 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_A_ORDER_HEADER_OPPORTUNITIES_FROM_A_ORDER_HEADER_TITLE'] = 'Order Header';
+$mod_strings['LBL_OPPORTUNITIES_PRODUCTS_1_FROM_PRODUCTS_TITLE'] = 'Products';
+$mod_strings['LBL_OPPORTUNITIES_A_INVOICEREQUEST_1_FROM_A_INVOICEREQUEST_TITLE'] = 'Invoice Request';
+$mod_strings['LBL_OPPORTUNITIES_USERS_1_FROM_USERS_TITLE'] = 'Project Team';
+$mod_strings['LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE'] = 'Contacts';
+$mod_strings['LNK_NEW_OPPORTUNITY'] = 'Create Project';
+$mod_strings['LNK_CREATE'] = 'Create Deal';
+$mod_strings['LBL_MODULE_NAME'] = 'Projects';
+$mod_strings['LBL_MODULE_NAME_SINGULAR'] = 'Project';
+$mod_strings['LBL_NEW_FORM_TITLE'] = 'Create Project';
+$mod_strings['LNK_OPPORTUNITY_LIST'] = 'View Projects';
+$mod_strings['LNK_OPPORTUNITY_REPORTS'] = 'View Project Reports';
+$mod_strings['LNK_IMPORT_OPPORTUNITIES'] = 'Import Projects';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Project List';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Project Search';
+$mod_strings['LBL_VIEW_FORM_TITLE'] = 'Project View';
+$mod_strings['LBL_NAME'] = 'Project Name';
+$mod_strings['UPDATE'] = 'Project - Currency Update';
+$mod_strings['LBL_DUPLICATE'] = 'Possible Duplicate Project';
+$mod_strings['MSG_DUPLICATE'] = 'The opportunity record you are about to create might be a duplicate of an opportunity record that already exists. Project records containing similar names are listed below.Click Save to continue creating this new opportunity, or click Cancel to return to the module without creating the opportunity.';
+$mod_strings['LBL_TOTAL_OPPORTUNITIES'] = 'Total Projects';
+$mod_strings['LBL_CLOSED_WON_OPPORTUNITIES'] = 'Closed Won Projects';
+$mod_strings['LBL_OPPORTUNITY_TYPE'] = 'Project Type';
+$mod_strings['NOTICE_NO_DELETE_CLOSED_RLIS'] = 'You cannot delete Projects that contain closed Revenue Line Items';
+$mod_strings['LBL_OPPORTUNITY_ROLE'] = 'Project Role';
+$mod_strings['LBL_OPPS_CONFIG_VIEW_BY_LABEL'] = 'Project Hierarchy';
+$mod_strings['LBL_OPPS_CONFIG_ALERT'] = 'By clicking Confirm, you will be erasing ALL Forecasts data and changing your Projects View. If this is not what you intended, click cancel to return to previous settings.';
+$mod_strings['LBL_OPPS_CONFIG_SALES_STAGE_1b'] = 'the Project Sales Stage is set to &quot;Closed Won&quot;.';
+$mod_strings['LBL_OPPS_CONFIG_SALES_STAGE_2b'] = 'the Project Sales Stage is set to &quot;Closed Lost&quot;.';
+$mod_strings['LBL_OPPS_CONFIG_SALES_STAGE_3b'] = 'the Project will be marked with the least-advanced Sales Stage.';
+$mod_strings['LBL_PRIMARY_QUOTE_ID'] = 'Primary Invoice Requestx';
+$mod_strings['LBL_QUOTE_SUBPANEL_TITLE'] = 'Invoice Requestsx';
+$mod_strings['LBL_PRODUCTS_SUBPANEL_TITLE'] = 'Products';
+$mod_strings['UPDATE_BUG_COUNT'] = 'Bug Tracker Found and Attempted to Resolve:';
+$mod_strings['UPDATE_BUGFOUND_COUNT'] = 'Bug Tracker Found:';

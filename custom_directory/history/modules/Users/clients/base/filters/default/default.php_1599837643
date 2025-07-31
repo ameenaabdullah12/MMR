@@ -1,0 +1,92 @@
+<?php
+// created: 2019-06-03 16:38:14
+$viewdefs['Users']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'search_name' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'first_name',
+        1 => 'last_name',
+      ),
+      'vname' => 'LBL_NAME',
+    ),
+    'first_name' => 
+    array (
+    ),
+    'last_name' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'date_modified' => 
+    array (
+    ),
+    'pwd_last_changed' => 
+    array (
+    ),
+    'user_name' => 
+    array (
+    ),
+    'status' => 
+    array (
+    ),
+    'is_admin' => 
+    array (
+    ),
+    'title' => 
+    array (
+    ),
+    'financial_team_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'financial_team_c',
+      'vname' => 'LBL_FINANCIAL_TEAM',
+    ),
+    'is_group' => 
+    array (
+    ),
+    'department' => 
+    array (
+    ),
+    'address_street' => 
+    array (
+    ),
+    'address_city' => 
+    array (
+    ),
+    'address_state' => 
+    array (
+    ),
+    'address_postalcode' => 
+    array (
+    ),
+    'address_country' => 
+    array (
+    ),
+    'elfc_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'width' => '10%',
+      'name' => 'elfc_c',
+      'vname' => 'LBL_ELFC',
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+  ),
+);

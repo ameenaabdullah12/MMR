@@ -1,0 +1,20 @@
+<?php
+ // created: 2024-10-16 15:06:54
+
+$app_list_strings['lead_status_dom']=array (
+  'New' => 'New',
+  'In Process' => 'In Process',
+  'Recycled' => 'Recycled',
+  'Dead' => 'Dead',
+  'Converted' => 'Converted',
+  'Referral' => 'Referral',
+  'DO_NOT_USE_BELOW' => 'DO NOT USE BELOW',
+  'Rejected' => 'Rejected - DO NOT USE',
+  'Attempting to contact' => 'Attempting to contact - DO NOT USE',
+  'Connected' => 'Connected - DO NOT USE',
+  'Working Opportunity Created' => 'Working Opportunity Created - DO NOT USE',
+  'Closing' => 'Closing - DOD NOT USE',
+  'Nurture' => 'Nurture - DO NOT USE',
+  'Not a Fit' => 'Not a Fit - DO NOT USE',
+  'Newsletter' => 'Newsletter - DO NOT USE',
+);

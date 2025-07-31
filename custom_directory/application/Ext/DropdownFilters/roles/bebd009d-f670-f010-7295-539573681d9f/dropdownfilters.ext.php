@@ -1,0 +1,57 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/application/Ext/DropdownFilters/roles/bebd009d-f670-f010-7295-539573681d9f/lead_source_dom.php
+
+// created: 2021-12-20 17:33:06
+$role_dropdown_filters['lead_source_dom'] = array (
+  '' => true,
+  'Advertisment' => true,
+  'Conference' => true,
+  'Existing Customer' => true,
+  'Existing_Contact_New_Client' => true,
+  'Express Website' => true,
+  'Incomingtelephone' => true,
+  'LinkedIn' => true,
+  'Campaign' => true,
+  'New_Contact' => true,
+  'Referral Nova' => true,
+  'Referral' => true,
+  'Web Site' => true,
+  'Other' => true,
+  'Other_networking_event' => false,
+  'Prospect_List' => false,
+  'Other_marketing_campaign' => false,
+  'Exhibition' => false,
+  'Webstats_lead' => false,
+  'Cold Call' => false,
+  'Marketing Affiliate' => false,
+  'Marketing Database' => false,
+  'Marketing Display advertising' => false,
+  'Marketing Email' => false,
+  'Marketing External Event' => false,
+  'Marketing Leadgen' => false,
+  'Marketing Meeting Booker' => false,
+  'Marketing Organic Search' => false,
+  'Marketing Organic Social' => false,
+  'Marketing Other' => false,
+  'Marketing Owned Event' => false,
+  'Marketing Paid Search' => false,
+  'Marketing Paid Social' => false,
+  'Marketing PR' => false,
+  'Marketing Referral' => false,
+  'Marketing Website' => false,
+  'Sales Cold Call' => false,
+  'Sales Cold Email' => false,
+  'Sales Inbound Call' => false,
+  'Sales Inbound Email' => false,
+  'Sales Networking' => false,
+  'Sales Referral' => false,
+  'Sales Cold LinkedIn' => false,
+  'Team referral client recommendation' => false,
+  'Team referral employee' => false,
+  'Team client transition new role company' => false,
+  'Team direct contact' => false,
+);
+?>

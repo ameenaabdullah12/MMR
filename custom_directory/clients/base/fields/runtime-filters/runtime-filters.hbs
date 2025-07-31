@@ -1,0 +1,51 @@
+<link rel="stylesheet" type="text/css" href="custom/clients/base/views/saved-reports-chart/css/RT_runtimeFilters.css">
+<div class="table-condensed" id="{{reportId}}">
+    {{#if valid}}
+    <div class="runtime-filters-view pull-left">
+        <table class="runtime-filters-table">
+            <tbody>
+                {{#each runtimeFilters}}
+                <tr class='runtime-filter-content' data-cid="{{model.cid}}">
+                    <td><span class="runtime-filter-field">{{filterName}} > {{str field_defs.vname field_defs.module}} ></span></td>
+                    <td class='runtime-filter-option' data-field="{{name}}" data-index="{{index}}">
+                        <select class="runtime-filter-name" data-field="{{name}}" data-index="{{index}}">
+                            {{#each operators}}
+                            <option value="{{name}}" {{#eq name ../qualifier_name}}selected{{/eq}}>{{str value 'Reports'}}</option>
+                            {{/each}}
+                        </select>
+                    </td>
+                    <td class='runtime-filter-value' data-field="{{name}}" data-index="{{index}}">
+                        {{#if multiselect}}
+                            {{generateMultiSelect ../this}}
+                        {{else}}
+                            {{#if singleSelect}}
+                                {{generateSingleSelect ../../this}}
+                            {{else}}
+                                {{#if ../isNDays}}
+                                        {{generateNDays ../../../this}}
+                                {{else}}
+                                    {{#if ../../isBetween}}
+                                        {{generateBetween ../../../../this}}
+                                    {{else}}
+                                        {{#if singleDate}}
+                                            {{generateSingleDate ../../../../../this}}
+                                        {{/if}}
+                                    {{/if}}
+                                {{/if}}
+                            {{/if}}    
+                        {{/if}}
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <div class="clearfix"></div>
+        <div class="runtime-filters-buttons">
+            <input type="submit" id="applyRuntimeFilters" class="button" title="Apply" value="Apply">
+            <input type="submit" id="resetRuntimeFilters" class="button" title="Reset" value="Reset">
+        </div>
+    </div>
+    {{else}}
+    <div class="runtime-filters-missing"><b>WhOops! No Runtime Filters exist for this Report.</b></div>
+    {{/if}}
+</div>

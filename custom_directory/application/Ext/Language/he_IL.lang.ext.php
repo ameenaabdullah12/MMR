@@ -1,0 +1,350 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.sugar_record_type_display.php
+
+ // created: 2017-08-22 17:29:13
+
+$app_list_strings['record_type_display']=array (
+  '' => '',
+  'Accounts' => 'חשבון',
+  'Opportunities' => 'הזדמנות',
+  'Cases' => 'פניית שירות',
+  'Leads' => 'ליד',
+  'Contacts' => 'אנשי קשר',
+  'Products' => 'שורת פריט מצוטט',
+  'Quotes' => 'הצעת מחיר',
+  'Bugs' => 'באג',
+  'Project' => 'פרויקט',
+  'Prospects' => 'מטרה',
+  'ProjectTask' => 'משימת הפרויקט',
+  'Tasks' => 'משימה',
+  'KBContents' => 'מרכז מידע',
+  'RevenueLineItems' => 'שורות פרטי הכנסה',
+);
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.sugar_record_type_display_notes.php
+
+ // created: 2017-08-22 17:29:13
+
+$app_list_strings['record_type_display_notes']=array (
+  'Accounts' => 'חשבון',
+  'Contacts' => 'איש קשר',
+  'Opportunities' => 'הזדמנות',
+  'Tasks' => 'משימה',
+  'ProductTemplates' => 'קטלוג מוצרים',
+  'Quotes' => 'הצעת מחיר',
+  'Products' => 'שורת פריט מצוטט',
+  'Contracts' => 'חוזה',
+  'Emails' => 'Any Email',
+  'Bugs' => 'באג',
+  'Project' => 'פרויקט',
+  'ProjectTask' => 'משימת הפרויקט',
+  'Prospects' => 'מטרה',
+  'Cases' => 'פניית שירות',
+  'Leads' => 'ליד',
+  'Meetings' => 'פגישה',
+  'Calls' => 'שיחת טלפון',
+  'KBContents' => 'מרכז מידע',
+  'RevenueLineItems' => 'שורות פרטי הכנסה',
+);
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.sugar_moduleList.php
+
+ //created: 2017-08-22 17:29:13
+
+$app_list_strings['moduleList']['RevenueLineItems']='שורות פרטי הכנסה';
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.sugar_parent_type_display.php
+
+ // created: 2017-08-22 17:29:13
+
+$app_list_strings['parent_type_display']=array (
+  'Accounts' => 'חשבון',
+  'Contacts' => 'איש קשר',
+  'Tasks' => 'משימה',
+  'Opportunities' => 'הזדמנות',
+  'Products' => 'שורת פריט מצוטט',
+  'Quotes' => 'הצעת מחיר',
+  'Bugs' => 'באגים',
+  'Cases' => 'פניית שירות',
+  'Leads' => 'ליד',
+  'Project' => 'פרויקט',
+  'ProjectTask' => 'משימת הפרויקט',
+  'Prospects' => 'מטרה',
+  'KBContents' => 'מרכז מידע',
+  'RevenueLineItems' => 'שורות פרטי הכנסה',
+);
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.CommuniGator_Integration.php
+ 
+$app_list_strings['a_emarketing_campaigntype_list'] = array (
+  'NotIntegrated' => 'Not Integrated',
+  'Static' => 'Static',
+  'Followup' => 'Followup',
+  'Refresh' => 'Refresh',
+);
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.PO_Requests_Suppliers.php
+
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$app_list_strings['a_supplier_type_dom']['Analyst'] = 'אנליסט';
+$app_list_strings['a_supplier_type_dom']['Competitor'] = 'מתחרה';
+$app_list_strings['a_supplier_type_dom']['Customer'] = 'לקוח';
+$app_list_strings['a_supplier_type_dom']['Integrator'] = 'אינטגרטור';
+$app_list_strings['a_supplier_type_dom']['Investor'] = 'משקיע';
+$app_list_strings['a_supplier_type_dom']['Partner'] = 'שותף';
+$app_list_strings['a_supplier_type_dom']['Press'] = 'עיתונות';
+$app_list_strings['a_supplier_type_dom']['Prospect'] = 'תחזית';
+$app_list_strings['a_supplier_type_dom']['Reseller'] = 'ריסיילר';
+$app_list_strings['a_supplier_type_dom']['Other'] = 'אחר';
+$app_list_strings['a_supplier_type_dom'][''] = '';
+$app_list_strings['moduleList']['a_supplier'] = 'Suppliers';
+$app_list_strings['moduleListSingular']['a_supplier'] = 'Supplier';
+
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.PO_Requests_Headers.php
+
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$app_list_strings['b_po_header_type_dom']['Existing Business'] = 'עסקים קיימים';
+$app_list_strings['b_po_header_type_dom']['New Business'] = 'עסקים חדשים';
+$app_list_strings['b_po_header_type_dom'][''] = '';
+$app_list_strings['moduleList']['b_po_header'] = 'Purchase Orders';
+$app_list_strings['moduleListSingular']['b_po_header'] = 'Purchase Order';
+
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.PO_Requests_Details.php
+
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$app_list_strings['c_po_detail_type_dom']['Existing Business'] = 'עסקים קיימים';
+$app_list_strings['c_po_detail_type_dom']['New Business'] = 'עסקים חדשים';
+$app_list_strings['c_po_detail_type_dom'][''] = '';
+$app_list_strings['moduleList']['c_po_detail'] = 'Purchase Order Details';
+$app_list_strings['moduleListSingular']['c_po_detail'] = 'Purchase Order Detail';
+
+?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/he_IL.sugar_moduleIconList.php
+
+// created: 2024-12-18 20:58:38
+$app_list_strings['moduleIconList']['Home'] = 'בי';
+$app_list_strings['moduleIconList']['Contacts'] = 'אק';
+$app_list_strings['moduleIconList']['Accounts'] = 'חש';
+$app_list_strings['moduleIconList']['Opportunities'] = 'הז';
+$app_list_strings['moduleIconList']['Cases'] = 'אי';
+$app_list_strings['moduleIconList']['Notes'] = 'הע';
+$app_list_strings['moduleIconList']['Calls'] = 'שט';
+$app_list_strings['moduleIconList']['Emails'] = 'דא';
+$app_list_strings['moduleIconList']['Meetings'] = 'פג';
+$app_list_strings['moduleIconList']['Tasks'] = 'מש';
+$app_list_strings['moduleIconList']['Calendar'] = 'לש';
+$app_list_strings['moduleIconList']['Leads'] = 'לי';
+$app_list_strings['moduleIconList']['Currencies'] = 'מט';
+$app_list_strings['moduleIconList']['Contracts'] = 'חו';
+$app_list_strings['moduleIconList']['Quotes'] = 'המ';
+$app_list_strings['moduleIconList']['Products'] = 'פש';
+$app_list_strings['moduleIconList']['WebLogicHooks'] = 'WL';
+$app_list_strings['moduleIconList']['ProductCategories'] = 'קמ';
+$app_list_strings['moduleIconList']['ProductTypes'] = 'סמ';
+$app_list_strings['moduleIconList']['ProductTemplates'] = 'קמ';
+$app_list_strings['moduleIconList']['ProductBundles'] = 'ממ';
+$app_list_strings['moduleIconList']['ProductBundleNotes'] = 'הל';
+$app_list_strings['moduleIconList']['Reports'] = 'דו';
+$app_list_strings['moduleIconList']['Forecasts'] = 'תח';
+$app_list_strings['moduleIconList']['ForecastWorksheets'] = 'גת';
+$app_list_strings['moduleIconList']['ForecastManagerWorksheets'] = 'ג';
+$app_list_strings['moduleIconList']['Quotas'] = 'מי';
+$app_list_strings['moduleIconList']['VisualPipeline'] = 'צו';
+$app_list_strings['moduleIconList']['ConsoleConfiguration'] = 'תמ';
+$app_list_strings['moduleIconList']['SugarLive'] = 'Su';
+$app_list_strings['moduleIconList']['Teams'] = 'קב';
+$app_list_strings['moduleIconList']['TeamNotices'] = 'הל';
+$app_list_strings['moduleIconList']['Manufacturers'] = 'יצ';
+$app_list_strings['moduleIconList']['Activities'] = 'פע';
+$app_list_strings['moduleIconList']['Comments'] = 'הע';
+$app_list_strings['moduleIconList']['Subscriptions'] = 'מנ';
+$app_list_strings['moduleIconList']['Bugs'] = 'בא';
+$app_list_strings['moduleIconList']['Feeds'] = 'RS';
+$app_list_strings['moduleIconList']['iFrames'] = 'הש';
+$app_list_strings['moduleIconList']['TimePeriods'] = 'מז';
+$app_list_strings['moduleIconList']['TaxRates'] = 'שמ';
+$app_list_strings['moduleIconList']['ContractTypes'] = 'סח';
+$app_list_strings['moduleIconList']['Schedulers'] = 'מת';
+$app_list_strings['moduleIconList']['Project'] = 'פר';
+$app_list_strings['moduleIconList']['ProjectTask'] = 'מב';
+$app_list_strings['moduleIconList']['Campaigns'] = 'קמ';
+$app_list_strings['moduleIconList']['CampaignLog'] = 'יק';
+$app_list_strings['moduleIconList']['CampaignTrackers'] = 'גק';
+$app_list_strings['moduleIconList']['Documents'] = 'מס';
+$app_list_strings['moduleIconList']['DocumentRevisions'] = 'מב';
+$app_list_strings['moduleIconList']['Connectors'] = 'מח';
+$app_list_strings['moduleIconList']['Notifications'] = 'הו';
+$app_list_strings['moduleIconList']['Sync'] = 'סנ';
+$app_list_strings['moduleIconList']['HintAccountsets'] = 'Hi';
+$app_list_strings['moduleIconList']['HintNotificationTargets'] = 'Hi';
+$app_list_strings['moduleIconList']['HintNewsNotifications'] = 'Hi';
+$app_list_strings['moduleIconList']['HintEnrichFieldConfigs'] = 'Hi';
+$app_list_strings['moduleIconList']['ExternalUsers'] = 'מח';
+$app_list_strings['moduleIconList']['ReportMaker'] = 'ER';
+$app_list_strings['moduleIconList']['DataSets'] = 'תנ';
+$app_list_strings['moduleIconList']['CustomQueries'] = 'שמ';
+$app_list_strings['moduleIconList']['pmse_Inbox'] = 'תה';
+$app_list_strings['moduleIconList']['pmse_Project'] = 'הת';
+$app_list_strings['moduleIconList']['pmse_Business_Rules'] = 'תכ';
+$app_list_strings['moduleIconList']['pmse_Emails_Templates'] = 'תמ';
+$app_list_strings['moduleIconList']['BusinessCenters'] = 'מע';
+$app_list_strings['moduleIconList']['Shifts'] = 'מש';
+$app_list_strings['moduleIconList']['ShiftExceptions'] = 'הל';
+$app_list_strings['moduleIconList']['Purchases'] = 'רכ';
+$app_list_strings['moduleIconList']['PurchasedLineItems'] = 'פש';
+$app_list_strings['moduleIconList']['MobileDevices'] = 'מנ';
+$app_list_strings['moduleIconList']['PushNotifications'] = 'הב';
+$app_list_strings['moduleIconList']['Escalations'] = 'הס';
+$app_list_strings['moduleIconList']['DocumentTemplates'] = 'תמ';
+$app_list_strings['moduleIconList']['DocumentMerges'] = 'ממ';
+$app_list_strings['moduleIconList']['CloudDrivePaths'] = 'נל';
+$app_list_strings['moduleIconList']['WorkFlow'] = 'הז';
+$app_list_strings['moduleIconList']['EAPM'] = 'חח';
+$app_list_strings['moduleIconList']['Worksheet'] = 'גע';
+$app_list_strings['moduleIconList']['Users'] = 'מש';
+$app_list_strings['moduleIconList']['Employees'] = 'עו';
+$app_list_strings['moduleIconList']['Administration'] = 'נמ';
+$app_list_strings['moduleIconList']['ACLRoles'] = 'תפ';
+$app_list_strings['moduleIconList']['InboundEmail'] = 'GM';
+$app_list_strings['moduleIconList']['Releases'] = 'שי';
+$app_list_strings['moduleIconList']['Prospects'] = 'מט';
+$app_list_strings['moduleIconList']['Queues'] = 'תו';
+$app_list_strings['moduleIconList']['EmailMarketing'] = 'דש';
+$app_list_strings['moduleIconList']['EmailTemplates'] = 'תד';
+$app_list_strings['moduleIconList']['SNIP'] = 'אד';
+$app_list_strings['moduleIconList']['ProspectLists'] = 'רמ';
+$app_list_strings['moduleIconList']['SavedSearch'] = 'חש';
+$app_list_strings['moduleIconList']['UpgradeWizard'] = 'אש';
+$app_list_strings['moduleIconList']['Trackers'] = 'גש';
+$app_list_strings['moduleIconList']['TrackerPerfs'] = 'בש';
+$app_list_strings['moduleIconList']['TrackerSessions'] = 'מא';
+$app_list_strings['moduleIconList']['TrackerQueries'] = 'של';
+$app_list_strings['moduleIconList']['FAQ'] = 'שנ';
+$app_list_strings['moduleIconList']['Newsletters'] = 'ני';
+$app_list_strings['moduleIconList']['SugarFavorites'] = 'מו';
+$app_list_strings['moduleIconList']['PdfManager'] = 'מP';
+$app_list_strings['moduleIconList']['DataArchiver'] = 'מנ';
+$app_list_strings['moduleIconList']['ArchiveRuns'] = 'הא';
+$app_list_strings['moduleIconList']['OAuthKeys'] = 'מל';
+$app_list_strings['moduleIconList']['OAuthTokens'] = 'אO';
+$app_list_strings['moduleIconList']['Filters'] = 'מס';
+$app_list_strings['moduleIconList']['UserSignatures'] = 'חד';
+$app_list_strings['moduleIconList']['Shippers'] = 'חש';
+$app_list_strings['moduleIconList']['Styleguide'] = 'מס';
+$app_list_strings['moduleIconList']['Feedbacks'] = 'מש';
+$app_list_strings['moduleIconList']['Tags'] = 'תג';
+$app_list_strings['moduleIconList']['Categories'] = 'קט';
+$app_list_strings['moduleIconList']['Dashboards'] = 'למ';
+$app_list_strings['moduleIconList']['OutboundEmail'] = 'הד';
+$app_list_strings['moduleIconList']['EmailParticipants'] = 'הב';
+$app_list_strings['moduleIconList']['DataPrivacy'] = 'פנ';
+$app_list_strings['moduleIconList']['ReportSchedules'] = 'דע';
+$app_list_strings['moduleIconList']['CommentLog'] = 'יה';
+$app_list_strings['moduleIconList']['Holidays'] = 'חו';
+$app_list_strings['moduleIconList']['ChangeTimers'] = 'שט';
+$app_list_strings['moduleIconList']['Metrics'] = 'מד';
+$app_list_strings['moduleIconList']['Messages'] = 'הו';
+$app_list_strings['moduleIconList']['Audit'] = 'בי';
+$app_list_strings['moduleIconList']['RevenueLineItems'] = 'שפ';
+$app_list_strings['moduleIconList']['DocuSignEnvelopes'] = 'מD';
+$app_list_strings['moduleIconList']['Geocode'] = 'קג';
+$app_list_strings['moduleIconList']['DRI_Workflows'] = 'מח';
+$app_list_strings['moduleIconList']['DRI_Workflow_Task_Templates'] = 'תפ';
+$app_list_strings['moduleIconList']['DRI_SubWorkflows'] = 'שמ';
+$app_list_strings['moduleIconList']['DRI_Workflow_Templates'] = 'תש';
+$app_list_strings['moduleIconList']['CJ_WebHooks'] = 'רW';
+$app_list_strings['moduleIconList']['CJ_Forms'] = 'פק';
+$app_list_strings['moduleIconList']['DRI_SubWorkflow_Templates'] = 'תש';
+$app_list_strings['moduleIconList']['Library'] = 'ספ';
+$app_list_strings['moduleIconList']['EmailAddresses'] = 'כד';
+$app_list_strings['moduleIconList']['Words'] = 'מי';
+$app_list_strings['moduleIconList']['Sugar_Favorites'] = 'מו';
+$app_list_strings['moduleIconList']['KBDocuments'] = 'מה';
+$app_list_strings['moduleIconList']['KBContents'] = 'ממ';
+$app_list_strings['moduleIconList']['KBArticles'] = 'מב';
+$app_list_strings['moduleIconList']['KBContentTemplates'] = 'תב';
+$app_list_strings['moduleIconList']['KBLocalizations'] = 'Lo';
+$app_list_strings['moduleIconList']['KBRevisions'] = 'Re';
+$app_list_strings['moduleIconList']['EmbeddedFiles'] = 'קמ';
+$app_list_strings['moduleIconList']['PubSub_ModuleEvent_PushSubs'] = 'Pu';
+$app_list_strings['moduleIconList']['tsr_Javascript_Functions'] = 'JF';
+$app_list_strings['moduleIconList']['tsr_Javascript_Setup'] = 'JS';
+$app_list_strings['moduleIconList']['a_mapping_header'] = 'MH';
+$app_list_strings['moduleIconList']['a_mapping_details'] = 'MD';
+$app_list_strings['moduleIconList']['a_project_transaction'] = 'PT';
+$app_list_strings['moduleIconList']['a_order_header'] = 'OH';
+$app_list_strings['moduleIconList']['a_order_detail'] = 'OD';
+$app_list_strings['moduleIconList']['GATOR_EmarketingHistory'] = 'EH';
+$app_list_strings['moduleIconList']['GATOR_EmarketingEvent'] = 'EE';
+$app_list_strings['moduleIconList']['GATOR_Iframe'] = 'Ga';
+$app_list_strings['moduleIconList']['a_pricelist'] = 'PL';
+$app_list_strings['moduleIconList']['a_address'] = 'Ad';
+$app_list_strings['moduleIconList']['AG_AG_Versions'] = 'AV';
+$app_list_strings['moduleIconList']['KRep_KReporter'] = 'KR';
+$app_list_strings['moduleIconList']['a_invoicerequest'] = 'IR';
+$app_list_strings['moduleIconList']['a_budget'] = 'Bu';
+$app_list_strings['moduleIconList']['a_project_trans'] = 'pr';
+$app_list_strings['moduleIconList']['a_profit_delivered'] = 'PD';
+$app_list_strings['moduleIconList']['udef_detailcosts'] = 'Pc';
+$app_list_strings['moduleIconList']['udef_detailsales'] = 'Ps';
+$app_list_strings['moduleIconList']['udef_detailpending'] = 'Po';
+$app_list_strings['moduleIconList']['adm_AdmAllowedTags'] = 'Ad';
+$app_list_strings['moduleIconList']['AG_Mappings'] = 'Ma';
+$app_list_strings['moduleIconList']['a_supplier'] = 'Su';
+$app_list_strings['moduleIconList']['b_po_header'] = 'PO';
+$app_list_strings['moduleIconList']['c_po_detail'] = 'PO';
+$app_list_strings['moduleIconList']['RT_SugarBoards'] = 'Su';
+$app_list_strings['moduleIconList']['mctrl_cc_detail'] = 'CC';
+$app_list_strings['moduleIconList']['mctrl_cst_costcentre'] = 'CC';
+$app_list_strings['moduleIconList']['mmr_csd_teams'] = 'CT';
+$app_list_strings['moduleIconList']['Dashboard'] = 'Da';
+$app_list_strings['moduleIconList']['Reports_1'] = 'Re';
+$app_list_strings['moduleIconList']['ForecastSchedule'] = 'FS';
+$app_list_strings['moduleIconList']['MergeRecords'] = 'MR';
+$app_list_strings['moduleIconList']['Roles'] = 'Ro';
+$app_list_strings['moduleIconList']['SugarFeed'] = 'AC';
+
+?>

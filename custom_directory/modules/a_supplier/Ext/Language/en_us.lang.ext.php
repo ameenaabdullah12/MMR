@@ -1,0 +1,42 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/modules/a_supplier/Ext/Language/en_us.customa_supplier_b_po_header_1.php
+
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/modules/a_supplier/Ext/Language/en_us.customa_supplier_b_po_header_1.php
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_B_PO_HEADER_TITLE'] = 'Purchase Orders';
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_A_SUPPLIER_TITLE'] = 'Purchase Orders';
+
+?>
+<?php
+// Merged from custom/Extension/modules/a_supplier/Ext/Language/temp.php
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_B_PO_HEADER_TITLE'] = 'Purchase Orders';
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_A_SUPPLIER_TITLE'] = 'Purchase Orders';
+
+
+?>
+<?php
+// Merged from custom/Extension/modules/a_supplier/Ext/Language/en_us.customa_supplier_documents_1.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_A_SUPPLIER_DOCUMENTS_1_FROM_DOCUMENTS_TITLE'] = 'Documents';
+$mod_strings['LBL_A_SUPPLIER_DOCUMENTS_1_FROM_A_SUPPLIER_TITLE'] = 'Documents';
+
+?>
+<?php
+// Merged from custom/Extension/modules/a_supplier/Ext/Language/en_us.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_DS_SIGN_BLOCK'] = 'ds sign block';
+$mod_strings['LBL_DS_DATE_BLOCK'] = 'ds date block';
+$mod_strings['LBL_CT_SYNC'] = '(CT) Sync';
+
+?>

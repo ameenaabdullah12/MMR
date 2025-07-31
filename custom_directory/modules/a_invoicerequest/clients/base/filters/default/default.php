@@ -1,0 +1,45 @@
+<?php
+// created: 2024-04-04 15:39:32
+$viewdefs['a_invoicerequest']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'c_primary_key' => 
+    array (
+    ),
+    'name' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'a_invoicerequest_project_name' => 
+    array (
+    ),
+    'created_by_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    'a_invoicerequest_accounts_name' => 
+    array (
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'invoice_no_c' => 
+    array (
+    ),
+    'client_po' => 
+    array (
+    ),
+    'notes_accounts_c' => 
+    array (
+    ),
+  ),
+);

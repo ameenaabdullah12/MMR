@@ -1,0 +1,217 @@
+<?php
+$viewdefs['a_invoicerequest'] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'list' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'c_primary_key',
+                'label' => 'LBL_A_PRIMARY_KEY',
+                'enabled' => true,
+                'default' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'opportunities_a_invoicerequest_1_name',
+                'label' => 'LBL_OPPORTUNITIES_A_INVOICEREQUEST_1_FROM_OPPORTUNITIES_TITLE',
+                'enabled' => true,
+                'id' => 'OPPORTUNITIES_A_INVOICEREQUEST_1OPPORTUNITIES_IDA',
+                'link' => true,
+                'sortable' => false,
+                'default' => true,
+              ),
+              2 => 
+              array (
+                'name' => 'inv_req_date',
+                'default' => true,
+                'enabled' => true,
+                'type' => 'date',
+                'label' => 'LBL_INV_REQ_DATE',
+              ),
+              3 => 
+              array (
+                'name' => 'client_po',
+                'default' => true,
+                'enabled' => true,
+                'type' => 'varchar',
+                'label' => 'LBL_CLIENT_PO',
+              ),
+              4 => 
+              array (
+                'name' => 'overcode_name_c',
+                'label' => 'LBL_OVERCODE_NAME',
+                'enabled' => true,
+                'default' => true,
+              ),
+              5 => 
+              array (
+                'name' => 'currency_list_c',
+                'label' => 'LBL_CURRENCY_LIST',
+                'enabled' => true,
+                'default' => true,
+              ),
+              6 => 
+              array (
+                'name' => 'total_c',
+                'label' => 'LBL_TOTAL',
+                'enabled' => true,
+                'default' => true,
+              ),
+              7 => 
+              array (
+                'name' => 'invoiced_amount_c',
+                'label' => 'LBL_INVOICED_AMOUNT',
+                'enabled' => true,
+                'default' => true,
+              ),
+              8 => 
+              array (
+                'name' => 'invoice_date_c',
+                'label' => 'LBL_INVOICE_DATE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              9 => 
+              array (
+                'name' => 'invoice_no_c',
+                'label' => 'LBL_INVOICE_NO',
+                'enabled' => true,
+                'default' => true,
+              ),
+              10 => 
+              array (
+                'name' => 'amount_outstanding_c',
+                'label' => 'LBL_AMOUNT_OUTSTANDING',
+                'enabled' => true,
+                'default' => true,
+              ),
+              11 => 
+              array (
+                'name' => 'invoice_type_c',
+                'label' => 'LBL_INVOICE_TYPE',
+                'enabled' => true,
+                'readonly' => false,
+                'default' => true,
+              ),
+              12 => 
+              array (
+                'name' => 'latest_paid_date_c',
+                'label' => 'LBL_LATEST_PAID_DATE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              13 => 
+              array (
+                'name' => 'detail',
+                'default' => true,
+                'enabled' => true,
+                'type' => 'text',
+                'studio' => 'visible',
+                'label' => 'LBL_DETAIL',
+                'sortable' => false,
+              ),
+              14 => 
+              array (
+                'name' => 'detail3',
+                'label' => 'LBL_DETAIL3',
+                'enabled' => true,
+                'sortable' => false,
+                'default' => true,
+              ),
+              15 => 
+              array (
+                'name' => 'created_by_name',
+                'label' => 'LBL_CREATED',
+                'enabled' => true,
+                'readonly' => true,
+                'id' => 'CREATED_BY',
+                'link' => true,
+                'default' => true,
+              ),
+              16 => 
+              array (
+                'name' => 'date_entered',
+                'default' => true,
+                'enabled' => true,
+                'type' => 'datetime',
+                'label' => 'LBL_DATE_ENTERED',
+              ),
+              17 => 
+              array (
+                'name' => 'team_name',
+                'label' => 'LBL_TEAM',
+                'default' => false,
+                'enabled' => true,
+              ),
+              18 => 
+              array (
+                'name' => 'name',
+                'label' => 'LBL_NAME',
+                'default' => false,
+                'enabled' => true,
+                'link' => true,
+              ),
+              19 => 
+              array (
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_ASSIGNED_TO_NAME',
+                'default' => false,
+                'enabled' => true,
+                'link' => true,
+                'id' => 'ASSIGNED_USER_ID',
+              ),
+              20 => 
+              array (
+                'name' => 'do_not_edit_c',
+                'label' => 'LBL_DO_NOT_EDIT',
+                'enabled' => true,
+                'default' => false,
+              ),
+              21 => 
+              array (
+                'name' => 'cost_of_research_c',
+                'label' => 'LBL_COST_OF_RESEARCH',
+                'enabled' => true,
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'currency_format' => true,
+                'default' => false,
+              ),
+              22 => 
+              array (
+                'name' => 'notes_accounts_c',
+                'label' => 'LBL_NOTES_ACCOUNTS',
+                'enabled' => true,
+                'readonly' => false,
+                'sortable' => false,
+                'default' => false,
+              ),
+              23 => 
+              array (
+                'name' => 'date_modified',
+                'label' => 'LBL_DATE_MODIFIED',
+                'enabled' => true,
+                'readonly' => true,
+                'default' => false,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

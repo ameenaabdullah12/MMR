@@ -1,0 +1,5 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_A_BUDGET_ACCOUNTS_FROM_ACCOUNTS_TITLE'] = 'Companies';
+$mod_strings['LBL_A_BUDGET_ACCOUNTS_FROM_A_BUDGET_TITLE_ID'] = 'Companies ID';
+$mod_strings['LBL_A_BUDGET_ACCOUNTS_FROM_A_BUDGET_TITLE'] = 'Companies';

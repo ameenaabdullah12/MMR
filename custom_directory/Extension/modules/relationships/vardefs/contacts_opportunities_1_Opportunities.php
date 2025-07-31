@@ -1,0 +1,29 @@
+<?php
+ // created: 2017-08-22 16:49:46
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['name'] = 'contacts_opportunities_1';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['type'] = 'link';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['relationship'] = 'contacts_opportunities_1';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['source'] = 'non-db';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['vname'] = 'LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1']['id_name'] = 'contacts_opportunities_1contacts_ida';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['name'] = 'contacts_opportunities_1_name';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['type'] = 'relate';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['source'] = 'non-db';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['vname'] = 'LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['save'] = true;
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['id_name'] = 'contacts_opportunities_1contacts_ida';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['link'] = 'contacts_opportunities_1';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['table'] = 'contacts';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['module'] = 'Contacts';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['rname'] = 'name';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['db_concat_fields'][0] = 'first_name';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1_name']['db_concat_fields'][1] = 'last_name';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['name'] = 'contacts_opportunities_1contacts_ida';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['type'] = 'id';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['relationship'] = 'contacts_opportunities_1';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['source'] = 'non-db';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['reportable'] = false;
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['side'] = 'right';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['vname'] = 'LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['link'] = 'contacts_opportunities_1';
+$dictionary['Opportunity']['fields']['contacts_opportunities_1contacts_ida']['rname'] = 'id';

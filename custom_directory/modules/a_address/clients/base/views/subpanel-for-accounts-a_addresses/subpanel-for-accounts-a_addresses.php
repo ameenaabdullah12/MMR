@@ -1,0 +1,104 @@
+<?php
+// created: 2023-07-20 13:45:25
+$viewdefs['a_address']['base']['view']['subpanel-for-accounts-a_addresses'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'default_dim_db_c',
+          'label' => 'LBL_DEFAULT_DIM_DB',
+          'enabled' => true,
+          'default' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'a_default_currency_c',
+          'label' => 'LBL_A_DEFAULT_CURRENCY',
+          'enabled' => true,
+          'default' => true,
+        ),
+        2 => 
+        array (
+          'type' => 'name',
+          'link' => true,
+          'default' => true,
+          'target_module' => NULL,
+          'target_record_key' => NULL,
+          'label' => 'LBL_NAME',
+          'enabled' => true,
+          'name' => 'name',
+        ),
+        3 => 
+        array (
+          'name' => 'cu_terms_c',
+          'label' => 'LBL_CU_TERMS',
+          'enabled' => true,
+          'default' => true,
+        ),
+        4 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_ADDRESSCODE',
+          'enabled' => true,
+          'name' => 'addresscode',
+        ),
+        5 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_STREET',
+          'enabled' => true,
+          'name' => 'street',
+        ),
+        6 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_CITY',
+          'enabled' => true,
+          'name' => 'city',
+        ),
+        7 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_STATE',
+          'enabled' => true,
+          'name' => 'state',
+        ),
+        8 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_POSTALCODE',
+          'enabled' => true,
+          'name' => 'postalcode',
+        ),
+        9 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_PHONE',
+          'enabled' => true,
+          'name' => 'phone',
+        ),
+        10 => 
+        array (
+          'type' => 'varchar',
+          'default' => true,
+          'label' => 'LBL_FAX',
+          'enabled' => true,
+          'name' => 'fax',
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

@@ -1,0 +1,107 @@
+<?php
+$viewdefs['a_address'] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'selection-list' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_1',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'name',
+                'label' => 'LBL_NAME',
+                'default' => true,
+                'enabled' => true,
+                'link' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'team_name',
+                'label' => 'LBL_TEAM',
+                'default' => false,
+                'enabled' => true,
+              ),
+              2 => 
+              array (
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_ASSIGNED_TO_NAME',
+                'default' => false,
+                'enabled' => true,
+                'link' => true,
+              ),
+              3 => 
+              array (
+                'label' => 'LBL_DATE_MODIFIED',
+                'enabled' => true,
+                'default' => false,
+                'name' => 'date_modified',
+                'readonly' => true,
+              ),
+              4 => 
+              array (
+                'type' => 'varchar',
+                'label' => 'LBL_STREET',
+                'default' => true,
+                'enabled' => true,
+                'name' => 'street',
+              ),
+              5 => 
+              array (
+                'type' => 'varchar',
+                'label' => 'LBL_CITY',
+                'default' => true,
+                'enabled' => true,
+                'name' => 'city',
+              ),
+              6 => 
+              array (
+                'type' => 'varchar',
+                'label' => 'LBL_COUNTRY',
+                'default' => true,
+                'enabled' => true,
+                'name' => 'country',
+              ),
+              7 => 
+              array (
+                'type' => 'varchar',
+                'default' => true,
+                'label' => 'LBL_A_DEFAULT_CURRENCY',
+                'enabled' => true,
+                'name' => 'a_default_currency_c',
+              ),
+              8 => 
+              array (
+                'type' => 'varchar',
+                'default' => true,
+                'label' => 'LBL_DEFAULT_DIM_DB',
+                'enabled' => true,
+                'name' => 'default_dim_db_c',
+              ),
+              9 => 
+              array (
+                'type' => 'bool',
+                'default' => true,
+                'label' => 'LBL_A_ANY_CURRENCY',
+                'enabled' => true,
+                'name' => 'a_any_currency_c',
+              ),
+            ),
+          ),
+        ),
+        'orderBy' => 
+        array (
+          'field' => 'date_modified',
+          'direction' => 'desc',
+        ),
+      ),
+    ),
+  ),
+);

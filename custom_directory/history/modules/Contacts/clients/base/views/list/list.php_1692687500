@@ -1,0 +1,362 @@
+<?php
+$viewdefs['Contacts'] = 
+array (
+  'base' => 
+  array (
+    'view' => 
+    array (
+      'list' => 
+      array (
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'name',
+                'type' => 'fullname',
+                'fields' => 
+                array (
+                  0 => 'salutation',
+                  1 => 'first_name',
+                  2 => 'last_name',
+                ),
+                'link' => true,
+                'label' => 'LBL_LIST_NAME',
+                'enabled' => true,
+                'default' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'account_name',
+                'enabled' => true,
+                'default' => true,
+                'label' => 'LBL_LIST_ACCOUNT_NAME',
+                'id' => 'ACCOUNT_ID',
+                'link' => true,
+                'contextMenu' => 
+                array (
+                  'objectType' => 'sugarAccount',
+                  'metaData' => 
+                  array (
+                    'return_module' => 'Contacts',
+                    'return_action' => 'ListView',
+                    'module' => 'Accounts',
+                    'parent_id' => '{$ACCOUNT_ID}',
+                    'parent_name' => '{$ACCOUNT_NAME}',
+                    'account_id' => '{$ACCOUNT_ID}',
+                    'account_name' => '{$ACCOUNT_NAME}',
+                  ),
+                ),
+                'sortable' => true,
+                'ACLTag' => 'ACCOUNT',
+                'related_fields' => 
+                array (
+                  0 => 'account_id',
+                ),
+              ),
+              2 => 
+              array (
+                'name' => 'company_name_c',
+                'label' => 'LBL_COMPANY_NAME',
+                'enabled' => true,
+                'default' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'title',
+                'enabled' => true,
+                'default' => true,
+                'label' => 'LBL_LIST_TITLE',
+              ),
+              4 => 
+              array (
+                'name' => 'phone_work',
+                'enabled' => true,
+                'default' => true,
+                'label' => 'LBL_OFFICE_PHONE',
+              ),
+              5 => 
+              array (
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_LIST_ASSIGNED_USER',
+                'id' => 'ASSIGNED_USER_ID',
+                'enabled' => true,
+                'default' => true,
+              ),
+              6 => 
+              array (
+                'name' => 'date_entered',
+                'enabled' => true,
+                'default' => true,
+                'readonly' => true,
+                'label' => 'LBL_DATE_ENTERED',
+              ),
+              7 => 
+              array (
+                'name' => 'date_modified',
+                'enabled' => true,
+                'default' => true,
+              ),
+              8 => 
+              array (
+                'name' => 'mmr_group_lead_c',
+                'label' => 'LBL_MMR_GROUP_LEAD',
+                'enabled' => true,
+                'default' => true,
+              ),
+              9 => 
+              array (
+                'name' => 'department',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_DEPARTMENT',
+              ),
+              10 => 
+              array (
+                'name' => 'do_not_call',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_DO_NOT_CALL',
+              ),
+              11 => 
+              array (
+                'name' => 'phone_home',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_HOME_PHONE',
+              ),
+              12 => 
+              array (
+                'name' => 'phone_mobile',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_MOBILE_PHONE',
+              ),
+              13 => 
+              array (
+                'name' => 'phone_other',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_OTHER_PHONE',
+              ),
+              14 => 
+              array (
+                'name' => 'life_cycle_stage_c',
+                'label' => 'LBL_LIFE_CYCLE_STAGE',
+                'enabled' => true,
+                'default' => false,
+              ),
+              15 => 
+              array (
+                'name' => 'contact_status_c',
+                'label' => 'LBL_CONTACT_STATUS',
+                'enabled' => true,
+                'default' => false,
+              ),
+              16 => 
+              array (
+                'name' => 'recent_conversion_campaign_c',
+                'label' => 'LBL_RECENT_CONVERSION_CAMPAIGN_C',
+                'enabled' => true,
+                'default' => false,
+              ),
+              17 => 
+              array (
+                'name' => 'contact_lead_status_c',
+                'label' => 'LBL_CONTACT_LEAD_STATUS',
+                'enabled' => true,
+                'default' => false,
+              ),
+              18 => 
+              array (
+                'name' => 'phone_fax',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_FAX_PHONE',
+              ),
+              19 => 
+              array (
+                'name' => 'primary_address_street',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_PRIMARY_ADDRESS_STREET',
+              ),
+              20 => 
+              array (
+                'name' => 'primary_address_city',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+              ),
+              21 => 
+              array (
+                'name' => 'primary_address_state',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_PRIMARY_ADDRESS_STATE',
+              ),
+              22 => 
+              array (
+                'name' => 'primary_address_postalcode',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_PRIMARY_ADDRESS_POSTALCODE',
+              ),
+              23 => 
+              array (
+                'name' => 'alt_address_country',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_ALT_ADDRESS_COUNTRY',
+              ),
+              24 => 
+              array (
+                'name' => 'alt_address_street',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_ALT_ADDRESS_STREET',
+              ),
+              25 => 
+              array (
+                'name' => 'alt_address_city',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_ALT_ADDRESS_CITY',
+              ),
+              26 => 
+              array (
+                'name' => 'salutation',
+                'default' => false,
+                'enabled' => true,
+                'type' => 'enum',
+                'label' => 'LBL_SALUTATION',
+              ),
+              27 => 
+              array (
+                'name' => 'alt_address_state',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_ALT_ADDRESS_STATE',
+              ),
+              28 => 
+              array (
+                'name' => 'alt_address_postalcode',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_ALT_ADDRESS_POSTALCODE',
+              ),
+              29 => 
+              array (
+                'name' => 'created_by_name',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_CREATED',
+              ),
+              30 => 
+              array (
+                'name' => 'team_name',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_LIST_TEAM',
+              ),
+              31 => 
+              array (
+                'name' => 'modified_by_name',
+                'default' => false,
+                'enabled' => true,
+                'label' => 'LBL_MODIFIED',
+              ),
+              32 => 
+              array (
+                'name' => 'sync_contact',
+                'default' => false,
+                'enabled' => true,
+                'type' => 'bool',
+                'label' => 'LBL_SYNC_CONTACT',
+                'sortable' => false,
+              ),
+              33 => 
+              array (
+                'name' => 'email',
+                'enabled' => true,
+                'default' => false,
+                'label' => 'LBL_LIST_EMAIL_ADDRESS',
+                'sortable' => false,
+                'link' => true,
+                'customCode' => '{$EMAIL_LINK}{$EMAIL}</a>',
+              ),
+              34 => 
+              array (
+                'name' => 'primary_address_country',
+                'default' => false,
+                'enabled' => true,
+                'width' => '10',
+                'label' => 'LBL_PRIMARY_ADDRESS_COUNTRY',
+              ),
+              35 => 
+              array (
+                'name' => 'hubspot_id_c',
+                'label' => 'LBL_HUBSPOT_ID',
+                'enabled' => true,
+                'default' => false,
+              ),
+              36 => 
+              array (
+                'name' => 'sugarcrm_contact_id_c',
+                'label' => 'LBL_SUGARCRM_CONTACT_ID',
+                'enabled' => true,
+                'default' => false,
+              ),
+              37 => 
+              array (
+                'name' => 'sugarcrm_lead_id_c',
+                'label' => 'LBL_SUGARCRM_LEAD_ID_C',
+                'enabled' => true,
+                'default' => false,
+              ),
+              38 => 
+              array (
+                'name' => 'last_activity_date_c',
+                'label' => 'LBL_LAST_ACTIVITY_DATE',
+                'enabled' => true,
+                'default' => false,
+              ),
+              39 => 
+              array (
+                'name' => 'last_email_sent_date_c',
+                'label' => 'LBL_LAST_EMAIL_SENT_DATE',
+                'enabled' => true,
+                'default' => false,
+              ),
+              40 => 
+              array (
+                'name' => 'last_project_date_c',
+                'label' => 'LBL_LAST_PROJECT_DATE',
+                'enabled' => true,
+                'default' => false,
+              ),
+              41 => 
+              array (
+                'name' => 'last_meeting_date_c',
+                'label' => 'LBL_LAST_MEETING_DATE',
+                'enabled' => true,
+                'default' => false,
+              ),
+              42 => 
+              array (
+                'name' => 'last_email_received_date_c',
+                'label' => 'LBL_LAST_EMAIL_RECEIVED_DATE',
+                'enabled' => true,
+                'default' => false,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,51 @@
+<?php
+// created: 2023-10-17 08:03:11
+$viewdefs['c_po_detail']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'dimensions_database_detail_c' => 
+    array (
+    ),
+    'opportunities_c_po_detail_1_name' => 
+    array (
+    ),
+    'total_value_c' => 
+    array (
+    ),
+    'total_received_value_c' => 
+    array (
+    ),
+    'dimensions_received_value_c' => 
+    array (
+    ),
+    'receive_value_queued_c' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    'dimensions_received_qty_c' => 
+    array (
+    ),
+    'status_c' => 
+    array (
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'cancel_line_c' => 
+    array (
+    ),
+  ),
+);

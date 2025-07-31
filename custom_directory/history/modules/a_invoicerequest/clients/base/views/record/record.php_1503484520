@@ -1,0 +1,140 @@
+<?php
+$viewdefs['a_invoicerequest']['base']['view']['record'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_RECORD_HEADER',
+      'header' => true,
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'picture',
+          'type' => 'avatar',
+          'width' => 42,
+          'height' => 42,
+          'dismiss_label' => true,
+          'readonly' => true,
+        ),
+        1 => 'name',
+        2 => 
+        array (
+          'name' => 'favorite',
+          'label' => 'LBL_FAVORITE',
+          'type' => 'favorite',
+          'readonly' => true,
+          'dismiss_label' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'follow',
+          'label' => 'LBL_FOLLOW',
+          'type' => 'follow',
+          'readonly' => true,
+          'dismiss_label' => true,
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'panel_body',
+      'label' => 'LBL_RECORD_BODY',
+      'columns' => 2,
+      'labelsOnTop' => true,
+      'placeholders' => true,
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'inv_req_date',
+          'label' => 'LBL_INV_REQ_DATE',
+        ),
+        1 => 
+        array (
+          'name' => 'client_po',
+          'label' => 'LBL_CLIENT_PO',
+        ),
+        2 => 
+        array (
+          'name' => 'a_invoicerequest_project_name',
+          'label' => 'LBL_A_INVOICEREQUEST_PROJECT_FROM_PROJECT_TITLE',
+        ),
+        3 => 
+        array (
+          'name' => 'a_invoicerequest_contacts_name',
+          'label' => 'LBL_A_INVOICEREQUEST_CONTACTS_FROM_CONTACTS_TITLE',
+        ),
+        4 => 
+        array (
+          'name' => 'a_invoicerequest_accounts_name',
+          'label' => 'LBL_A_INVOICEREQUEST_ACCOUNTS_FROM_ACCOUNTS_TITLE',
+        ),
+        5 => 
+        array (
+          'name' => 'amount',
+          'label' => 'LBL_AMOUNT',
+        ),
+        6 => 
+        array (
+          'name' => 'detail',
+          'studio' => 'visible',
+          'label' => 'LBL_DETAIL',
+        ),
+        7 => 
+        array (
+          'name' => 'notes',
+          'studio' => 'visible',
+          'label' => 'LBL_NOTES',
+        ),
+        8 => 
+        array (
+          'name' => 'amount2',
+          'label' => 'LBL_AMOUNT2',
+        ),
+        9 => 
+        array (
+          'name' => 'detail2',
+          'studio' => 'visible',
+          'label' => 'LBL_DETAIL2',
+        ),
+        10 => 
+        array (
+          'name' => 'amount3',
+          'label' => 'LBL_AMOUNT3',
+        ),
+        11 => 
+        array (
+          'name' => 'detail3',
+          'studio' => 'visible',
+          'label' => 'LBL_DETAIL3',
+        ),
+        12 => 'assigned_user_name',
+        13 => 'team_name',
+        14 => 
+        array (
+          'name' => 'description',
+          'span' => 12,
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'name' => 'panel_hidden',
+      'label' => 'LBL_SHOW_MORE',
+      'hide' => true,
+      'columns' => 2,
+      'labelsOnTop' => true,
+      'placeholders' => true,
+      'fields' => 
+      array (
+      ),
+    ),
+  ),
+  'templateMeta' => 
+  array (
+    'maxColumns' => '2',
+    'useTabs' => false,
+  ),
+);

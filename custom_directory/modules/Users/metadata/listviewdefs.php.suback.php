@@ -1,0 +1,148 @@
+<?php
+$listViewDefs['Users'] = 
+array (
+  'name' => 
+  array (
+    'width' => '30',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'related_fields' => 
+    array (
+      0 => 'last_name',
+      1 => 'first_name',
+    ),
+    'orderBy' => 'last_name',
+    'default' => true,
+  ),
+  'user_name' => 
+  array (
+    'width' => '5',
+    'label' => 'LBL_USER_NAME',
+    'link' => true,
+    'default' => true,
+  ),
+  'title' => 
+  array (
+    'width' => '15',
+    'label' => 'LBL_TITLE',
+    'link' => true,
+    'default' => true,
+  ),
+  'email' => 
+  array (
+    'width' => '30',
+    'sortable' => false,
+    'label' => 'LBL_LIST_EMAIL',
+    'link' => true,
+    'default' => true,
+  ),
+  'department' => 
+  array (
+    'width' => '15',
+    'label' => 'LBL_DEPARTMENT',
+    'link' => true,
+    'default' => true,
+  ),
+  'approver_c' => 
+  array (
+    'type' => 'bool',
+    'default' => true,
+    'label' => 'LBL_APPROVER',
+    'width' => '10',
+  ),
+  'status' => 
+  array (
+    'width' => '10',
+    'label' => 'LBL_STATUS',
+    'link' => false,
+    'default' => true,
+  ),
+  'date_entered' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'editview' => false,
+      'quickcreate' => false,
+      'wirelesseditview' => false,
+    ),
+    'label' => 'LBL_DATE_ENTERED',
+    'width' => '10',
+    'default' => true,
+  ),
+  'is_admin' => 
+  array (
+    'width' => '10',
+    'label' => 'LBL_ADMIN',
+    'link' => false,
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'editview' => false,
+      'quickcreate' => false,
+      'wirelesseditview' => false,
+    ),
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => '10',
+    'default' => true,
+  ),
+  'last_login' => 
+  array (
+    'type' => 'datetime',
+    'readonly' => true,
+    'label' => 'LBL_LAST_LOGIN',
+    'width' => '10',
+    'default' => true,
+  ),
+  'pwd_last_changed' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'formula' => false,
+    ),
+    'label' => 'LBL_PSW_MODIFIED',
+    'width' => '10',
+    'default' => true,
+  ),
+  'employee_status' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_EMPLOYEE_STATUS',
+    'width' => '10',
+  ),
+  'description' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => 10,
+    'default' => true,
+  ),
+  'phone_work' => 
+  array (
+    'width' => '25',
+    'label' => 'LBL_LIST_PHONE',
+    'link' => true,
+    'default' => false,
+  ),
+  'is_group' => 
+  array (
+    'width' => '10',
+    'label' => 'LBL_LIST_GROUP',
+    'link' => true,
+    'default' => false,
+  ),
+  'license_type' => 
+  array (
+    'width' => '20',
+    'label' => 'LBL_LICENSE_TYPE',
+    'link' => false,
+    'default' => false,
+  ),
+);

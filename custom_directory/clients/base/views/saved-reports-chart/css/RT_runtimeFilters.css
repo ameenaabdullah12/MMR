@@ -1,0 +1,65 @@
+.runtime-filters-titlebar {
+    border-top: 1px solid rgb(221,221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    margin: 0px;
+    line-height: 18px;
+    padding: 0px;
+}
+
+.runtime-filters-heading {
+    font-family: inherit;
+    padding: 6px;
+    font-weight: bold;
+}
+
+#toggleButton{
+    margin-right: 5px; 
+    margin-left: 5px;
+}
+
+.runtime-filters-section{
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 18px;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f6f6f6;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: .3em;
+}
+
+.runtime-filters-buttons{
+    margin: 10px 0px 5px 5px;
+}
+
+.runtime-filters-view{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.runtime-filter-field{
+    padding-left: 5px;
+}
+
+.runtime-filter-name{
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+}
+
+.runtime-filters-missing {
+    padding: 10px;
+    color: red;
+    text-align: center;
+}

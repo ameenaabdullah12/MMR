@@ -1,0 +1,180 @@
+<?php
+$viewdefs['Users']['base']['view']['list'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'label' => 'LBL_PANEL_DEFAULT',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'name',
+          'label' => 'LBL_LIST_NAME',
+          'type' => 'fullname',
+          'fields' => 
+          array (
+            0 => 'first_name',
+            1 => 'last_name',
+          ),
+          'enabled' => true,
+          'default' => true,
+          'sortable' => true,
+          'link' => true,
+          'width' => '30',
+          'related_fields' => 
+          array (
+            0 => 'last_name',
+            1 => 'first_name',
+          ),
+          'orderBy' => 'last_name',
+        ),
+        1 => 
+        array (
+          'name' => 'user_name',
+          'sortable' => true,
+          'default' => true,
+          'enabled' => true,
+          'width' => '5',
+          'label' => 'LBL_USER_NAME',
+          'link' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'title',
+          'enabled' => true,
+          'default' => true,
+          'sortable' => true,
+          'width' => '15',
+          'label' => 'LBL_TITLE',
+          'link' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'department',
+          'enabled' => true,
+          'default' => true,
+          'sortable' => true,
+          'width' => '15',
+          'label' => 'LBL_DEPARTMENT',
+          'link' => true,
+        ),
+        4 => 
+        array (
+          'name' => 'approver_c',
+          'default' => true,
+          'enabled' => true,
+          'label' => 'LBL_APPROVER',
+          'width' => '10',
+        ),
+        5 => 
+        array (
+          'name' => 'status',
+          'enabled' => true,
+          'default' => true,
+          'sortable' => true,
+          'width' => '10',
+          'label' => 'LBL_STATUS',
+          'link' => false,
+        ),
+        6 => 
+        array (
+          'name' => 'date_entered',
+          'default' => true,
+          'enabled' => true,
+          'studio' => 
+          array (
+            'editview' => false,
+            'quickcreate' => false,
+            'wirelesseditview' => false,
+          ),
+          'label' => 'LBL_DATE_ENTERED',
+          'width' => '10',
+        ),
+        7 => 
+        array (
+          'name' => 'date_modified',
+          'default' => true,
+          'enabled' => true,
+          'studio' => 
+          array (
+            'editview' => false,
+            'quickcreate' => false,
+            'wirelesseditview' => false,
+          ),
+          'label' => 'LBL_DATE_MODIFIED',
+          'width' => '10',
+        ),
+        8 => 
+        array (
+          'name' => 'last_login',
+          'default' => true,
+          'enabled' => true,
+          'readonly' => true,
+          'label' => 'LBL_LAST_LOGIN',
+          'width' => '10',
+        ),
+        9 => 
+        array (
+          'name' => 'pwd_last_changed',
+          'default' => true,
+          'enabled' => true,
+          'studio' => 
+          array (
+            'formula' => false,
+          ),
+          'label' => 'LBL_PSW_MODIFIED',
+          'width' => '10',
+        ),
+        10 => 
+        array (
+          'name' => 'employee_status',
+          'default' => true,
+          'enabled' => true,
+          'label' => 'LBL_EMPLOYEE_STATUS',
+          'width' => '10',
+        ),
+        11 => 
+        array (
+          'name' => 'description',
+          'default' => true,
+          'enabled' => true,
+          'label' => 'LBL_DESCRIPTION',
+          'sortable' => false,
+          'width' => 10,
+        ),
+        12 => 
+        array (
+          'name' => 'phone_work',
+          'default' => false,
+          'enabled' => true,
+          'sortable' => true,
+          'width' => '25',
+          'label' => 'LBL_LIST_PHONE',
+          'link' => true,
+        ),
+        13 => 
+        array (
+          'name' => 'is_group',
+          'default' => false,
+          'enabled' => true,
+          'width' => '10',
+          'label' => 'LBL_LIST_GROUP',
+          'link' => true,
+        ),
+        14 => 
+        array (
+          'name' => 'license_type',
+          'type' => 'enum',
+          'readonly' => true,
+          'enabled' => true,
+          'default' => false,
+          'sortable' => true,
+          'width' => '20',
+          'label' => 'LBL_LICENSE_TYPE',
+          'link' => false,
+        ),
+      ),
+    ),
+  ),
+);

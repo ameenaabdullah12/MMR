@@ -1,0 +1,163 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.POHeaderCustoms.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_APPROVED'] = 'Approved';
+$mod_strings['LBL_APPROVER'] = 'Approver';
+$mod_strings['LBL_DATE_APPROVED'] = 'Date Approved';
+$mod_strings['LBL_DIMENSIONS_DATABASE'] = 'Dimensions Database';
+$mod_strings['LBL_LINE_VALUE_INCREASE'] = 'Line Value Increase';
+$mod_strings['LBL_CURRENCY_0'] = 'LBL_CURRENCY';
+$mod_strings['LBL_GRAND_TOTAL'] = 'Grand Total';
+$mod_strings['LBL_PO_DATE'] = 'PO Date';
+$mod_strings['LBL_SUPPLIER_A_SUPPLIER_ID'] = 'Supplier (related Supplier ID)';
+$mod_strings['LBL_SUPPLIER'] = 'Supplier';
+$mod_strings['LBL_SUPPLIER_REF'] = 'Supplier Ref';
+$mod_strings['LBL_BATCH_REF'] = 'Batch Ref';
+$mod_strings['LBL_REQUEST_APPROVAL'] = 'Request Approval';
+$mod_strings['LBL_WARNING'] = 'Approval Warning';
+$mod_strings['LBL_ORDER_PRIMARY'] = 'Order Primary';
+$mod_strings['LBL_CURRENCY_1'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY'] = 'Currency';
+$mod_strings['LBL_CURRENCY_2'] = 'LBL_CURRENCY';
+$mod_strings['LBL_AUTO_NUMBER'] = 'TEMP Number';
+$mod_strings['LBL_CURRENCY_3'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_4'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_5'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_6'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_7'] = 'LBL_CURRENCY';
+$mod_strings['LBL_TOTAL_RECEIVED_VALUE'] = 'Total Received Value';
+$mod_strings['LBL_CURRENCY_8'] = 'LBL_CURRENCY';
+$mod_strings['LBL_PO_NUMBER'] = 'PO Number';
+$mod_strings['LBL_CURRENCY_9'] = 'LBL_CURRENCY';
+$mod_strings['LBL_APPROVED_VALUE'] = 'Approved Value';
+$mod_strings['LBL_UNAPPROVED_BALANCE'] = 'Unapproved Balance';
+$mod_strings['LBL_CURRENCY_10'] = 'LBL_CURRENCY';
+$mod_strings['LBL_WARNING_PROJECT'] = 'Project Warning';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned Approver Id';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned Approver ';
+$mod_strings['LBL_LIST_ASSIGNED_TO_NAME'] = 'Assigned Approver';
+$mod_strings['LBL_CREATED_BY_ID'] = 'Created by id';
+$mod_strings['LBL_WARNING_APPROVER'] = 'Warning Approver';
+$mod_strings['LBL_APPROVER_ERROR'] = 'Approver Error';
+$mod_strings['LBL_RECORDVIEW_PANEL1'] = 'System';
+$mod_strings['LBL_RECORDVIEW_PANEL2'] = 'Approval';
+$mod_strings['LBL_CURRENCY_NAME'] = 'Currency';
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.customopportunities_b_po_header_1.php
+
+// WARNING: The contents of this file are auto-generated.
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.customopportunities_b_po_header_1.php
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_OPPORTUNITIES_B_PO_HEADER_1_FROM_OPPORTUNITIES_TITLE'] = 'Opportunities';
+$mod_strings['LBL_OPPORTUNITIES_B_PO_HEADER_1_FROM_B_PO_HEADER_TITLE'] = 'Opportunities';
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/temp.php
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_OPPORTUNITIES_B_PO_HEADER_1_FROM_OPPORTUNITIES_TITLE'] = 'Opportunities';
+$mod_strings['LBL_OPPORTUNITIES_B_PO_HEADER_1_FROM_B_PO_HEADER_TITLE'] = 'Opportunities';
+
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_APPROVED'] = 'Approved';
+$mod_strings['LBL_APPROVER'] = 'Approver';
+$mod_strings['LBL_DATE_APPROVED'] = 'Date Approved';
+$mod_strings['LBL_DIMENSIONS_DATABASE'] = 'Dimensions Database';
+$mod_strings['LBL_LINE_VALUE_INCREASE'] = 'Line Value Increase';
+$mod_strings['LBL_CURRENCY_0'] = 'LBL_CURRENCY';
+$mod_strings['LBL_GRAND_TOTAL'] = 'Grand Total';
+$mod_strings['LBL_PO_DATE'] = 'PO Date';
+$mod_strings['LBL_SUPPLIER_A_SUPPLIER_ID'] = 'Supplier (related Supplier ID)';
+$mod_strings['LBL_SUPPLIER'] = 'Supplier';
+$mod_strings['LBL_SUPPLIER_REF'] = 'Supplier Ref';
+$mod_strings['LBL_BATCH_REF'] = 'Batch Ref';
+$mod_strings['LBL_REQUEST_APPROVAL'] = 'Request Approval';
+$mod_strings['LBL_WARNING'] = 'Approval Warning';
+$mod_strings['LBL_ORDER_PRIMARY'] = 'Order Primary';
+$mod_strings['LBL_CURRENCY_1'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY'] = 'Currency';
+$mod_strings['LBL_CURRENCY_2'] = 'LBL_CURRENCY';
+$mod_strings['LBL_AUTO_NUMBER'] = 'TEMP Number';
+$mod_strings['LBL_CURRENCY_3'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_4'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_5'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_6'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_7'] = 'LBL_CURRENCY';
+$mod_strings['LBL_TOTAL_RECEIVED_VALUE'] = 'Total Received Value';
+$mod_strings['LBL_CURRENCY_8'] = 'LBL_CURRENCY';
+$mod_strings['LBL_PO_NUMBER'] = 'PO Number';
+$mod_strings['LBL_CURRENCY_9'] = 'LBL_CURRENCY';
+$mod_strings['LBL_APPROVED_VALUE'] = 'Approved Value';
+$mod_strings['LBL_UNAPPROVED_BALANCE'] = 'Unapproved Balance';
+$mod_strings['LBL_CURRENCY_10'] = 'LBL_CURRENCY';
+$mod_strings['LBL_WARNING_PROJECT'] = 'Project Warning';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned ApproverId';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned Approver';
+$mod_strings['LBL_LIST_ASSIGNED_TO_NAME'] = 'Assigned Approver';
+$mod_strings['LBL_CREATED_BY_ID'] = 'Created by id';
+$mod_strings['LBL_WARNING_APPROVER'] = 'Warning Approver';
+$mod_strings['LBL_APPROVER_ERROR'] = 'Approver Error';
+$mod_strings['LBL_RECORDVIEW_PANEL1'] = 'System';
+$mod_strings['LBL_RECORDVIEW_PANEL2'] = 'Approval';
+$mod_strings['LBL_ASSIGNED_TO_USER_CALC'] = 'assigned to user calc';
+$mod_strings['LBL_SYNC_ERROR'] = 'Sync Error';
+$mod_strings['LBL_PO_CREATED_BY'] = 'PO created by';
+$mod_strings['LBL_PROJECT'] = 'Project';
+$mod_strings['LBL_PO_LINK'] = 'PO link';
+$mod_strings['LBL_PO_URL_TEXT'] = 'PO URL Text';
+$mod_strings['LBL_SEND_APPROVAL_REMINDER'] = 'Send your approver a reminder?';
+$mod_strings['LBL_PO_URL'] = 'po url';
+$mod_strings['LBL_INVOICED_GRAND_TOTAL'] = 'Invoiced grand total';
+$mod_strings['LBL_PO_STATUS'] = 'PO status';
+$mod_strings['LBL_TO_BE_INVOICED'] = 'To be invoiced';
+$mod_strings['LBL_FINANCE_CHECK'] = 'Finance check';
+$mod_strings['LBL_POH_STATUS'] = 'POH Status';
+$mod_strings['LBL_PO_APPROVAL_LINK'] = 'PO Approval Link';
+$mod_strings['LBL_SUPPLIER_DB'] = 'Supplier DB';
+$mod_strings['LBL_APPROVER_LIMIT'] = 'Approver Limit';
+$mod_strings['LBL_GRAND_TOTAL_GBP'] = 'Grand Total GBP';
+$mod_strings['LBL_GRAND_TOTAL_ORIG'] = 'Grand Total Orig';
+$mod_strings['LBL_ALLOCATION'] = 'Shared/Investment - Allocation';
+$mod_strings['LBL_RECORDVIEW_PANEL3'] = 'Shared / Investment Option';
+$mod_strings['LBL_B_PO_HEADER_FOCUS_DRAWER_DASHBOARD'] = 'Purchase Orders Focus Drawer';
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.customb_po_header_c_po_detail_1.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_B_PO_HEADER_C_PO_DETAIL_1_FROM_C_PO_DETAIL_TITLE'] = 'Purchase Order Details';
+$mod_strings['LBL_B_PO_HEADER_C_PO_DETAIL_1_FROM_B_PO_HEADER_TITLE'] = 'Purchase Order Details';
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.customa_supplier_b_po_header_1.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_A_SUPPLIER_TITLE'] = 'Suppliers';
+$mod_strings['LBL_A_SUPPLIER_B_PO_HEADER_1_FROM_B_PO_HEADER_TITLE'] = 'Suppliers';
+
+?>
+<?php
+// Merged from custom/Extension/modules/b_po_header/Ext/Language/en_UK.customb_po_header_notes_1.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_B_PO_HEADER_NOTES_1_FROM_NOTES_TITLE'] = 'Notes';
+$mod_strings['LBL_B_PO_HEADER_NOTES_1_FROM_B_PO_HEADER_TITLE'] = 'Notes';
+
+?>

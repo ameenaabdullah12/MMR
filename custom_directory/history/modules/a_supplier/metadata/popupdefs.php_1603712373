@@ -1,0 +1,71 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'a_supplier',
+    'varName' => 'a_supplier',
+    'orderBy' => 'a_supplier.name',
+    'whereClauses' => array (
+  'name' => 'a_supplier.name',
+  'billing_address_city' => 'a_supplier.billing_address_city',
+  'phone_office' => 'a_supplier.phone_office',
+),
+    'searchInputs' => array (
+  0 => 'name',
+  1 => 'billing_address_city',
+  2 => 'phone_office',
+  3 => 'industry',
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_ACCOUNT_NAME',
+    'link' => true,
+    'default' => true,
+    'name' => 'name',
+  ),
+  'DIMENSIONS_DATABASE_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_DIMENSIONS_DATABASE',
+    'width' => 10,
+    'name' => 'dimensions_database_c',
+  ),
+  'A_DEFAULT_CURRENCY' => 
+  array (
+    'type' => 'vatcurrencylookup',
+    'default' => true,
+    'label' => 'LBL_A_DEFAULT_CURRENCY',
+    'width' => 10,
+  ),
+  'TEAM_NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_TEAM',
+    'default' => true,
+    'name' => 'team_name',
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_ASSIGNED_USER',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+    'name' => 'assigned_user_name',
+  ),
+  'DATE_MODIFIED' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'portaleditview' => false,
+    ),
+    'readonly' => true,
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => 10,
+    'default' => true,
+    'name' => 'date_modified',
+  ),
+),
+);

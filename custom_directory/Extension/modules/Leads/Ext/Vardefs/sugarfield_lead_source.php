@@ -1,0 +1,137 @@
+<?php
+ // created: 2021-12-20 17:36:23
+$dictionary['Lead']['fields']['lead_source']['len']=100;
+$dictionary['Lead']['fields']['lead_source']['massupdate']=true;
+$dictionary['Lead']['fields']['lead_source']['comments']='Lead source (ex: Web, print)';
+$dictionary['Lead']['fields']['lead_source']['duplicate_merge']='enabled';
+$dictionary['Lead']['fields']['lead_source']['duplicate_merge_dom_value']='1';
+$dictionary['Lead']['fields']['lead_source']['merge_filter']='disabled';
+$dictionary['Lead']['fields']['lead_source']['calculated']=false;
+$dictionary['Lead']['fields']['lead_source']['dependency']=false;
+$dictionary['Lead']['fields']['lead_source']['visibility_grid']=array (
+  'trigger' => 'mmr_group_lead_c',
+  'values' => 
+  array (
+    '' => 
+    array (
+      0 => '',
+      1 => 'Advertisment',
+      2 => 'Conference',
+      3 => 'Existing Customer',
+      4 => 'Existing_Contact_New_Client',
+      5 => 'Express Website',
+      6 => 'Incomingtelephone',
+      7 => 'LinkedIn',
+      8 => 'Campaign',
+      9 => 'New_Contact',
+      10 => 'Referral',
+      11 => 'Web Site',
+      12 => 'Other',
+      13 => 'Other_networking_event',
+      14 => 'Prospect_List',
+      15 => 'Other_marketing_campaign',
+      16 => 'Exhibition',
+      17 => 'Webstats_lead',
+      18 => 'Cold Call',
+    ),
+    'MMR' => 
+    array (
+      0 => '',
+      1 => 'Advertisment',
+      2 => 'Conference',
+      3 => 'Existing Customer',
+      4 => 'Existing_Contact_New_Client',
+      5 => 'Express Website',
+      6 => 'Incomingtelephone',
+      7 => 'LinkedIn',
+      8 => 'Campaign',
+      9 => 'New_Contact',
+      10 => 'Referral',
+      11 => 'Web Site',
+      12 => 'Other',
+      13 => 'Other_networking_event',
+      14 => 'Prospect_List',
+      15 => 'Other_marketing_campaign',
+      16 => 'Exhibition',
+      17 => 'Webstats_lead',
+      18 => 'Cold Call',
+    ),
+    'Cubo' => 
+    array (
+      0 => '',
+      1 => 'Advertisment',
+      2 => 'Conference',
+      3 => 'Existing Customer',
+      4 => 'Existing_Contact_New_Client',
+      5 => 'Express Website',
+      6 => 'Incomingtelephone',
+      7 => 'LinkedIn',
+      8 => 'Campaign',
+      9 => 'New_Contact',
+      10 => 'Referral',
+      11 => 'Web Site',
+      12 => 'Other',
+      13 => 'Other_networking_event',
+      14 => 'Prospect_List',
+      15 => 'Other_marketing_campaign',
+      16 => 'Exhibition',
+      17 => 'Webstats_lead',
+      18 => 'Cold Call',
+    ),
+    'Huxly' => 
+    array (
+      0 => '',
+      1 => 'Advertisment',
+      2 => 'Conference',
+      3 => 'Existing Customer',
+      4 => 'Existing_Contact_New_Client',
+      5 => 'Express Website',
+      6 => 'Incomingtelephone',
+      7 => 'LinkedIn',
+      8 => 'Campaign',
+      9 => 'New_Contact',
+      10 => 'Referral',
+      11 => 'Web Site',
+      12 => 'Other',
+      13 => 'Other_networking_event',
+      14 => 'Prospect_List',
+      15 => 'Other_marketing_campaign',
+      16 => 'Exhibition',
+      17 => 'Webstats_lead',
+      18 => 'Cold Call',
+    ),
+    'Together' => 
+    array (
+      0 => '',
+      1 => 'Marketing Affiliate',
+      2 => 'Marketing Database',
+      3 => 'Marketing Display advertising',
+      4 => 'Marketing Email',
+      5 => 'Marketing External Event',
+      6 => 'Marketing Leadgen',
+      7 => 'Marketing Meeting Booker',
+      8 => 'Marketing Organic Search',
+      9 => 'Marketing Organic Social',
+      10 => 'Marketing Other',
+      11 => 'Marketing Owned Event',
+      12 => 'Marketing Paid Search',
+      13 => 'Marketing Paid Social',
+      14 => 'Marketing PR',
+      15 => 'Marketing Referral',
+      16 => 'Marketing Website',
+      17 => 'Sales Cold Call',
+      18 => 'Sales Cold Email',
+      19 => 'Sales Inbound Call',
+      20 => 'Sales Inbound Email',
+      21 => 'Sales Networking',
+      22 => 'Sales Referral',
+      23 => 'Sales Cold LinkedIn',
+      24 => 'Team referral client recommendation',
+      25 => 'Team referral employee',
+      26 => 'Team client transition new role company',
+      27 => 'Team direct contact',
+    ),
+  ),
+);
+
+ ?>

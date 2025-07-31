@@ -1,0 +1,36 @@
+<?php
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_CURRENCY'] = 'Currency';
+$mod_strings['LBL_PO_STATUS'] = 'PO Status';
+$mod_strings['LBL_CURRENCY_0'] = 'LBL_CURRENCY';
+$mod_strings['LBL_PRICE'] = 'Price';
+$mod_strings['LBL_CURRENCY_1'] = 'LBL_CURRENCY';
+$mod_strings['LBL_TOTAL_VALUE'] = 'Total Value';
+$mod_strings['LBL_DIMENSIONS_DATABASE_DETAIL'] = 'Dimensions Database Detail';
+$mod_strings['LBL_CURRENCY_2'] = 'LBL_CURRENCY';
+$mod_strings['LBL_TOTAL_RECEIVED_VALUE'] = 'Total Received Value';
+$mod_strings['LBL_RECEIVED_QUANTITY'] = 'Received Quantity';
+$mod_strings['LBL_QUANTITY'] = 'Quantity';
+$mod_strings['LBL_ORDER_PRIMARY'] = 'Order Primary';
+$mod_strings['LBL_DIMENSIONS_RECEIVED_QTY'] = 'Dimensions Received Qty';
+$mod_strings['LBL_COST_CENTRE'] = 'Cost Centre';
+$mod_strings['LBL_RECORDVIEW_PANEL1'] = 'Received';
+$mod_strings['LBL_CURRENCY_3'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_4'] = 'LBL_CURRENCY';
+$mod_strings['LBL_DIMENSIONS_RECEIVED_VALUE'] = 'Dimensions Received Value';
+$mod_strings['LBL_RECORDVIEW_PANEL2'] = 'SYSTEM USE ONLY';
+$mod_strings['LBL_CURRENCY_5'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_6'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_7'] = 'LBL_CURRENCY';
+$mod_strings['LBL_CURRENCY_8'] = 'LBL_CURRENCY';
+$mod_strings['LBL_VALUE_OK'] = 'Value OK';
+$mod_strings['LBL_CURRENCY_9'] = 'LBL_CURRENCY';
+$mod_strings['LBL_WANRING_PROJECT_POS'] = 'Wanring Project POs';
+$mod_strings['LBL_CURRENCY2_ID'] = 'currency2 id';
+$mod_strings['LBL_RECORDVIEW_PANEL3'] = 'Project Details';
+$mod_strings['LBL_CHECK_RECEIVED_VALUE'] = 'Check Received value';
+$mod_strings['LBL_RECEIVED_MESSAGE'] = 'Received Message';
+$mod_strings['LBL_STATUS'] = 'Status';
+$mod_strings['LBL_RCV_MESSAGE'] = 'RCV Message';
+$mod_strings['LBL_CURRENCY_10'] = 'LBL_CURRENCY';
+$mod_strings['LBL_PRICE_CHECK'] = 'Price Check';

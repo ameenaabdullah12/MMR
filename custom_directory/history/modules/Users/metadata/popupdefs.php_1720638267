@@ -1,0 +1,100 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'User',
+    'varName' => 'USER',
+    'orderBy' => 'user_name',
+    'whereClauses' => array (
+  'first_name' => 'users.first_name',
+  'last_name' => 'users.last_name',
+  'status' => 'users.status',
+  'financial_team_c' => 'users_cstm.financial_team_c',
+  'tag_c' => 'users_cstm.tag_c',
+),
+    'searchInputs' => array (
+  0 => 'first_name',
+  1 => 'last_name',
+  4 => 'status',
+  5 => 'financial_team_c',
+  9 => 'tag_c',
+),
+    'searchdefs' => array (
+  'first_name' => 
+  array (
+    'name' => 'first_name',
+    'width' => '10',
+  ),
+  'last_name' => 
+  array (
+    'name' => 'last_name',
+    'width' => '10',
+  ),
+  'status' => 
+  array (
+    'name' => 'status',
+    'width' => '10',
+  ),
+  'financial_team_c' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_FINANCIAL_TEAM',
+    'width' => '10',
+    'name' => 'financial_team_c',
+  ),
+  'tag_c' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_TAG',
+    'width' => '10',
+    'name' => 'tag_c',
+  ),
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'related_fields' => 
+    array (
+      0 => 'last_name',
+      1 => 'first_name',
+    ),
+    'orderBy' => 'last_name',
+    'default' => true,
+    'name' => 'name',
+  ),
+  'USER_NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_USER_NAME',
+    'link' => true,
+    'default' => true,
+    'name' => 'user_name',
+  ),
+  'TITLE' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_TITLE',
+    'link' => true,
+    'default' => true,
+    'name' => 'title',
+  ),
+  'DEPARTMENT' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_DEPARTMENT',
+    'link' => true,
+    'default' => true,
+    'name' => 'department',
+  ),
+  'IS_ADMIN' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_ADMIN',
+    'link' => false,
+    'default' => true,
+    'name' => 'is_admin',
+  ),
+),
+);

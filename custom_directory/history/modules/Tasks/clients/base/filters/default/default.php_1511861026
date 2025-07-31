@@ -1,0 +1,46 @@
+<?php
+// created: 2017-08-22 17:00:39
+$viewdefs['Tasks']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'open_only' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'status',
+      ),
+      'type' => 'bool',
+      'vname' => 'LBL_OPEN_ITEMS',
+    ),
+    'contact_name' => 
+    array (
+      'dbFields' => 
+      array (
+      ),
+      'vname' => 'LBL_CONTACT_NAME',
+    ),
+    'status' => 
+    array (
+    ),
+    'parent_name' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+  ),
+);

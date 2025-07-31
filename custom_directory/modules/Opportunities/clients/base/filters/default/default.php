@@ -1,0 +1,233 @@
+<?php
+// created: 2025-02-11 16:31:14
+$viewdefs['Opportunities']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'auto_number' => 
+    array (
+    ),
+    'project_function_c' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'commissioned_financial_year_c' => 
+    array (
+    ),
+    'ct_date_posted_c' => 
+    array (
+    ),
+    'expert_sensory_checkbox_c' => 
+    array (
+    ),
+    'contacts_opportunities_1_name' => 
+    array (
+    ),
+    'account_name' => 
+    array (
+      'dbFields' => 
+      array (
+      ),
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'csd_team_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'csd_team_c',
+      'vname' => 'LBL_CSD_TEAM',
+    ),
+    'bd_stage_c' => 
+    array (
+    ),
+    'sales_stage' => 
+    array (
+    ),
+    'fieldwork_location_c' => 
+    array (
+      'type' => 'multienum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'fieldwork_location_c',
+      'vname' => 'LBL_FIELDWORK_LOCATION',
+    ),
+    'defined_methods_c' => 
+    array (
+      'type' => 'multienum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'defined_methods_c',
+      'vname' => 'LBL_DEFINED_METHODS',
+    ),
+    'brand_c' => 
+    array (
+    ),
+    'team_location_new_c' => 
+    array (
+    ),
+    'monday_office_location_c' => 
+    array (
+    ),
+    'sensoryqualyesno_c' => 
+    array (
+    ),
+    'expressyesno_c' => 
+    array (
+    ),
+    'qual_req_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'qual_req_c',
+      'vname' => 'LBL_QUAL_REQ',
+    ),
+    'product_area_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'product_area_c',
+      'vname' => 'LBL_PRODUCT_AREA',
+    ),
+    'product_area_sub_c' => 
+    array (
+    ),
+    'default_dim_db_c' => 
+    array (
+      'type' => 'enum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'default_dim_db_c',
+      'vname' => 'LBL_DEFAULT_DIM_DB',
+    ),
+    'probability' => 
+    array (
+    ),
+    'grossprofit_estimate_c' => 
+    array (
+    ),
+    'date_closed' => 
+    array (
+    ),
+    'description' => 
+    array (
+    ),
+    'case_study_c' => 
+    array (
+      'type' => 'bool',
+      'default' => true,
+      'width' => '10%',
+      'name' => 'case_study_c',
+      'vname' => 'LBL_CASE_STUDY',
+    ),
+    'keywords_c' => 
+    array (
+      'type' => 'varchar',
+      'default' => true,
+      'width' => '10%',
+      'name' => 'keywords_c',
+      'vname' => 'LBL_KEYWORDS',
+    ),
+    'commissioned_date_c' => 
+    array (
+    ),
+    'country_full_list_c' => 
+    array (
+      'type' => 'text',
+      'default' => true,
+      'studio' => 'visible',
+      'sortable' => false,
+      'width' => '10%',
+      'name' => 'country_full_list_c',
+      'vname' => 'LBL_COUNTRY_FULL_LIST',
+    ),
+    'mmr_group_lead_c' => 
+    array (
+    ),
+    'po_number_c' => 
+    array (
+    ),
+    'team_name' => 
+    array (
+    ),
+    'opportunity_programme_c' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'c_primary_key' => 
+    array (
+    ),
+    'import_tag_c' => 
+    array (
+    ),
+    'opportunity_type' => 
+    array (
+    ),
+    'send_invoicing_reminder_c' => 
+    array (
+    ),
+    'actual_sales_display_c' => 
+    array (
+    ),
+    'created_by_name' => 
+    array (
+    ),
+    'ct_sync_c' => 
+    array (
+    ),
+    'ph_sync_c' => 
+    array (
+    ),
+    'send_csq_c' => 
+    array (
+    ),
+    'contact_c' => 
+    array (
+    ),
+    'from_bolt_programme_c' => 
+    array (
+    ),
+    'date_modified' => 
+    array (
+    ),
+    'auto_version_c' => 
+    array (
+    ),
+    'csq_sent_date_c' => 
+    array (
+    ),
+    'csq_complete_date_c' => 
+    array (
+    ),
+    'csq_overall_performance_c' => 
+    array (
+    ),
+    'suffix_outstanding_c' => 
+    array (
+    ),
+  ),
+);

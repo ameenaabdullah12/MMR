@@ -1,0 +1,6 @@
+<?php
+ // created: 2017-08-22 17:30:58
+$dictionary['a_address']['fields']['on_stop_c']['enforced']='';
+$dictionary['a_address']['fields']['on_stop_c']['dependency']='';
+
+ ?>

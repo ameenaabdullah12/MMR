@@ -1,0 +1,82 @@
+<?php
+// created: 2021-09-09 14:43:37
+$viewdefs['Accounts']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'name' => 
+    array (
+    ),
+    'product_area_c' => 
+    array (
+      'type' => 'multienum',
+      'default' => true,
+      'studio' => 'visible',
+      'width' => '10%',
+      'name' => 'product_area_c',
+      'vname' => 'LBL_PRODUCT_AREA',
+    ),
+    'address_street' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'billing_address_street',
+        1 => 'shipping_address_street',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_ANY_ADDRESS',
+    ),
+    'address_city' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'billing_address_city',
+        1 => 'shipping_address_city',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_CITY',
+    ),
+    'address_state' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'billing_address_state',
+        1 => 'shipping_address_state',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_STATE',
+    ),
+    'address_postalcode' => 
+    array (
+      'dbFields' => 
+      array (
+        0 => 'billing_address_postalcode',
+        1 => 'shipping_address_postalcode',
+      ),
+      'type' => 'text',
+      'vname' => 'LBL_POSTAL_CODE',
+    ),
+    'billing_address_country' => 
+    array (
+    ),
+    'account_type' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'mmr_group_lead_c' => 
+    array (
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+  ),
+);
